@@ -1,0 +1,31 @@
+[0.026s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ldlidar -- -j4 -l4
+[0.149s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/src/demo.cpp.o[0m
+[0.171s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[0.178s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[3.172s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[4.558s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:[m[K In member function ‘[01m[Kvoid LogModule::[01;32m[KInitLock[m[K()[m[K’:
+[4.558s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:172:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpthread_mutex_init[m[K’ was not declared in this scope; did you mean ‘[01m[Kpthread_mutex_t[m[K’?
+[4.558s]   172 |   [01;31m[Kpthread_mutex_init[m[K(&mutex_lock_,NULL);
+[4.558s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.558s]       |   [32m[Kpthread_mutex_t[m[K
+[4.582s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:[m[K In member function ‘[01m[Kvoid LogModule::[01;32m[KRealseLock[m[K()[m[K’:
+[4.582s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:180:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpthread_mutex_unlock[m[K’ was not declared in this scope; did you mean ‘[01m[Kpthread_mutex_t[m[K’?
+[4.582s]   180 |         [01;31m[Kpthread_mutex_unlock[m[K(&mutex_lock_);
+[4.582s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.582s]       |         [32m[Kpthread_mutex_t[m[K
+[4.590s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:[m[K In member function ‘[01m[Kvoid LogModule::[01;32m[KLock[m[K()[m[K’:
+[4.591s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:188:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpthread_mutex_lock[m[K’ was not declared in this scope; did you mean ‘[01m[Kpthread_mutex_t[m[K’?
+[4.595s]   188 |         [01;31m[Kpthread_mutex_lock[m[K(&mutex_lock_);
+[4.596s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.599s]       |         [32m[Kpthread_mutex_t[m[K
+[4.609s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:[m[K In member function ‘[01m[Kvoid LogModule::[01;32m[KUnLock[m[K()[m[K’:
+[4.614s] [01m[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:196:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpthread_mutex_unlock[m[K’ was not declared in this scope; did you mean ‘[01m[Kpthread_mutex_t[m[K’?
+[4.614s]   196 |         [01;31m[Kpthread_mutex_unlock[m[K(&mutex_lock_);
+[4.615s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.615s]       |         [32m[Kpthread_mutex_t[m[K
+[4.876s] gmake[2]: *** [CMakeFiles/ldlidar_node.dir/build.make:132: CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/logger/log_module.cpp.o] Error 1
+[4.877s] gmake[2]: *** Waiting for unfinished jobs....
+[17.563s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ldlidar_node.dir/all] Error 2
+[17.564s] gmake: *** [Makefile:146: all] Error 2
+[17.580s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ldlidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ldlidar -- -j4 -l4

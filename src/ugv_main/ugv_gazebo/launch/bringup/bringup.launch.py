@@ -29,7 +29,7 @@ def generate_launch_description():
     # Get the directory of the launch file
     launch_file_dir = os.path.join(get_package_share_directory('ugv_gazebo'), 'launch/bringup')
     # Get the directory of the gazebo_ros package
-    pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
+    
 
     # Get the use_sim_time parameter from the launch file
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
@@ -41,20 +41,13 @@ def generate_launch_description():
         'ugv_world.world'
     )
 
-    # Include the gzserver launch file
-    gzserver_cmd = IncludeLaunchDescription(
+    gz_sim_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
+            os.path.join(get_package_share_directory('ros_gz_sim'), 'launch', 'gz_sim.launch.py')
         ),
-        launch_arguments={'world': world}.items()
+        launch_arguments={'gz_args': world + ' -r'}.items()
     )
 
-    # Include the gzclient launch file
-    gzclient_cmd = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
-        )
-    )
             
     # Include the robot_state_publisher launch file
     robot_state_publisher_cmd = IncludeLaunchDescription(
@@ -75,8 +68,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     # Add the commands to the launch description
-    ld.add_action(gzserver_cmd)
-    ld.add_action(gzclient_cmd)
+    ld.add_action(gz_sim_cmd)
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(spawn_ugv_cmd)
 

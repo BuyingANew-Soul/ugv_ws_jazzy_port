@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-def0916beb759c0b4ddd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "ugv_interface__py",
+					"jsonFile" : "directory-ugv_interface__py-9e960a2c0a644acafbb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "ugv_interface__rs",
+					"jsonFile" : "directory-ugv_interface__rs-a2675404dc355c4f1219.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ugv_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ugv_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ugv_interface_egg-517fbe96788aa6a47e70.json",
+					"name" : "ament_cmake_python_build_ugv_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ugv_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ugv_interface-70d3020f513f830cc098.json",
+					"name" : "ament_cmake_python_copy_ugv_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface-68f069f6537c4166887c.json",
+					"name" : "ugv_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__cpp-1ff7778c5788615b9c86.json",
+					"name" : "ugv_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ugv_interface__py::@035e0173533abaa13f3b",
+					"jsonFile" : "target-ugv_interface__py-cf828460f05a8632b126.json",
+					"name" : "ugv_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_generator_c-658d02c6aa2a95df3bd6.json",
+					"name" : "ugv_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_generator_py-9bb4c4d2632b47a31ec2.json",
+					"name" : "ugv_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_generator_type_description-c7eecda6bc10104b51a0.json",
+					"name" : "ugv_interface__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_typesupport_c-e426170083fa61d1eae7.json",
+					"name" : "ugv_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_typesupport_cpp-9af03c7b1e553a1f5f1d.json",
+					"name" : "ugv_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_typesupport_fastrtps_c-88570d91d404e0f96d01.json",
+					"name" : "ugv_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_typesupport_fastrtps_cpp-96e6aa72379fb59ffcfc.json",
+					"name" : "ugv_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_typesupport_introspection_c-f39469992da6732b766c.json",
+					"name" : "ugv_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface__rosidl_typesupport_introspection_cpp-d29ec4fa36f3632a15d8.json",
+					"name" : "ugv_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ugv_interface__rs::@99977bd09f132c17444e",
+					"jsonFile" : "target-ugv_interface__rs-a9a00d11c69aa47624cf.json",
+					"name" : "ugv_interface__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface_s__rosidl_typesupport_c-5e657b0c9a8e33feedf5.json",
+					"name" : "ugv_interface_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface_s__rosidl_typesupport_fastrtps_c-f533c1004afe4c52df82.json",
+					"name" : "ugv_interface_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface_s__rosidl_typesupport_introspection_c-56c0d3be2b7d12ecd109.json",
+					"name" : "ugv_interface_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ugv_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ugv_interface_uninstall-82ae0629b13bf24929b1.json",
+					"name" : "ugv_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c2f7aa7a08c6d075557e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface",
+		"source" : "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1 @@
+Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/rf2o_laser_odometry -- -j4 -l4

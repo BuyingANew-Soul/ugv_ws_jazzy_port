@@ -1,0 +1,737 @@
+[0.000000] (-) TimerEvent: {}
+[0.000338] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.000621] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000646] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000780] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000801] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000971] (-) JobUnselected: {'identifier': 'emcl2'}
+[0.001086] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.001106] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001133] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001168] (-) JobUnselected: {'identifier': 'ugv_bringup'}
+[0.001187] (-) JobUnselected: {'identifier': 'ugv_chat_ai'}
+[0.001221] (-) JobUnselected: {'identifier': 'ugv_description'}
+[0.001472] (-) JobUnselected: {'identifier': 'ugv_gazebo'}
+[0.001492] (-) JobUnselected: {'identifier': 'ugv_nav'}
+[0.001509] (-) JobUnselected: {'identifier': 'ugv_slam'}
+[0.001598] (-) JobUnselected: {'identifier': 'ugv_tools'}
+[0.001617] (-) JobUnselected: {'identifier': 'ugv_vision'}
+[0.001634] (-) JobUnselected: {'identifier': 'ugv_web_app'}
+[0.001660] (-) JobUnselected: {'identifier': 'vizanti'}
+[0.001689] (-) JobUnselected: {'identifier': 'vizanti_cpp'}
+[0.001717] (-) JobUnselected: {'identifier': 'vizanti_demos'}
+[0.001736] (-) JobUnselected: {'identifier': 'vizanti_msgs'}
+[0.001762] (-) JobUnselected: {'identifier': 'vizanti_server'}
+[0.001928] (ldlidar) JobQueued: {'identifier': 'ldlidar', 'dependencies': OrderedDict()}
+[0.001953] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.001983] (robot_pose_publisher) JobQueued: {'identifier': 'robot_pose_publisher', 'dependencies': OrderedDict()}
+[0.002066] (ugv_base_node) JobQueued: {'identifier': 'ugv_base_node', 'dependencies': OrderedDict()}
+[0.002086] (ugv_interface) JobQueued: {'identifier': 'ugv_interface', 'dependencies': OrderedDict()}
+[0.002106] (ldlidar) JobStarted: {'identifier': 'ldlidar'}
+[0.007965] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.012507] (robot_pose_publisher) JobStarted: {'identifier': 'robot_pose_publisher'}
+[0.017015] (ugv_base_node) JobStarted: {'identifier': 'ugv_base_node'}
+[0.023548] (ldlidar) JobProgress: {'identifier': 'ldlidar', 'progress': 'cmake'}
+[0.024535] (ldlidar) JobProgress: {'identifier': 'ldlidar', 'progress': 'build'}
+[0.025419] (ldlidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nameless/ugv_ws_jazzy_port/build/ldlidar', '--', '-j4', '-l4'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ldlidar', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ldlidar', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.029360] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.030553] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[0.031834] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nameless/ugv_ws_jazzy_port/build/rf2o_laser_odometry', '--', '-j4', '-l4'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/rf2o_laser_odometry', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.034710] (robot_pose_publisher) JobProgress: {'identifier': 'robot_pose_publisher', 'progress': 'cmake'}
+[0.036077] (robot_pose_publisher) JobProgress: {'identifier': 'robot_pose_publisher', 'progress': 'build'}
+[0.037729] (robot_pose_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher', '--', '-j4', '-l4'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.052748] (ugv_base_node) JobProgress: {'identifier': 'ugv_base_node', 'progress': 'cmake'}
+[0.053013] (ugv_base_node) Command: {'cmd': ['/usr/bin/cmake', '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node', '-DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.087093] (ugv_base_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099633] (-) TimerEvent: {}
+[0.150200] (ldlidar) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[0.171908] (ldlidar) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[0.177744] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[0.178939] (ldlidar) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o\x1b[0m\n'}
+[0.183384] (ldlidar) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[0.205109] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[0.205619] (-) TimerEvent: {}
+[0.226100] (robot_pose_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_pose_publisher.dir/src/robot_pose_publisher.cpp.o\x1b[0m\n'}
+[0.230784] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[0.305772] (-) TimerEvent: {}
+[0.407698] (-) TimerEvent: {}
+[0.510041] (-) TimerEvent: {}
+[0.611575] (-) TimerEvent: {}
+[0.662119] (ugv_base_node) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.714067] (-) TimerEvent: {}
+[0.803119] (ugv_base_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.818062] (-) TimerEvent: {}
+[0.865953] (ugv_base_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.918178] (-) TimerEvent: {}
+[0.925627] (ugv_base_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.978534] (ugv_base_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.018333] (-) TimerEvent: {}
+[1.119033] (-) TimerEvent: {}
+[1.220334] (-) TimerEvent: {}
+[1.322470] (-) TimerEvent: {}
+[1.370601] (ugv_base_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.388060] (ugv_base_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.422635] (-) TimerEvent: {}
+[1.523294] (-) TimerEvent: {}
+[1.627280] (-) TimerEvent: {}
+[1.703364] (ugv_base_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.727468] (-) TimerEvent: {}
+[1.834092] (-) TimerEvent: {}
+[1.934841] (-) TimerEvent: {}
+[2.040088] (-) TimerEvent: {}
+[2.046206] (ugv_base_node) StdoutLine: {'line': b'-- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.140231] (-) TimerEvent: {}
+[2.243117] (-) TimerEvent: {}
+[2.294168] (ugv_base_node) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.347097] (-) TimerEvent: {}
+[2.452203] (-) TimerEvent: {}
+[2.553581] (-) TimerEvent: {}
+[2.654374] (-) TimerEvent: {}
+[2.764069] (-) TimerEvent: {}
+[2.864817] (-) TimerEvent: {}
+[2.965751] (-) TimerEvent: {}
+[3.069617] (-) TimerEvent: {}
+[3.173074] (ldlidar) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/logger/log_module.cpp.o\x1b[0m\n'}
+[3.174080] (-) TimerEvent: {}
+[3.174651] (ugv_base_node) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[3.198224] (ugv_base_node) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[3.211080] (ugv_base_node) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.215569] (ugv_base_node) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[3.274233] (-) TimerEvent: {}
+[3.322543] (ugv_base_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[3.375079] (-) TimerEvent: {}
+[3.462860] (ugv_base_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.480090] (-) TimerEvent: {}
+[3.583066] (-) TimerEvent: {}
+[3.683801] (-) TimerEvent: {}
+[3.785094] (-) TimerEvent: {}
+[3.889109] (-) TimerEvent: {}
+[3.903872] (ugv_base_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.915205] (ugv_base_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.916345] (ugv_base_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.917034] (ugv_base_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.926172] (ugv_base_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.926648] (ugv_base_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.926825] (ugv_base_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.935074] (ugv_base_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.935497] (ugv_base_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.945095] (ugv_base_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.954085] (ugv_base_node) StdoutLine: {'line': b'-- Configuring done (3.9s)\n'}
+[3.989257] (-) TimerEvent: {}
+[4.089763] (-) TimerEvent: {}
+[4.125124] (ugv_base_node) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.172138] (ugv_base_node) StdoutLine: {'line': b'-- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node\n'}
+[4.192126] (-) TimerEvent: {}
+[4.260030] (ugv_base_node) CommandEnded: {'returncode': 0}
+[4.260703] (ugv_base_node) JobProgress: {'identifier': 'ugv_base_node', 'progress': 'build'}
+[4.260744] (ugv_base_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node', '--', '-j4', '-l4'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.297106] (-) TimerEvent: {}
+[4.399116] (-) TimerEvent: {}
+[4.441280] (ugv_base_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_node.dir/src/base_node.cpp.o\x1b[0m\n'}
+[4.501100] (-) TimerEvent: {}
+[4.521349] (ugv_base_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/base_node_ekf.dir/src/base_node_ekf.cpp.o\x1b[0m\n'}
+[4.559342] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LogModule::\x1b[01;32m\x1b[KInitLock\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.559855] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:172:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_init\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.560043] (ldlidar) StderrLine: {'line': b'  172 |   \x1b[01;31m\x1b[Kpthread_mutex_init\x1b[m\x1b[K(&mutex_lock_,NULL);\n'}
+[4.560178] (ldlidar) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.560284] (ldlidar) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\n'}
+[4.583467] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LogModule::\x1b[01;32m\x1b[KRealseLock\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.583870] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:180:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_unlock\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.584037] (ldlidar) StderrLine: {'line': b'  180 |         \x1b[01;31m\x1b[Kpthread_mutex_unlock\x1b[m\x1b[K(&mutex_lock_);\n'}
+[4.584147] (ldlidar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.584241] (ldlidar) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\n'}
+[4.591284] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LogModule::\x1b[01;32m\x1b[KLock\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.592327] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:188:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_lock\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.596112] (ldlidar) StderrLine: {'line': b'  188 |         \x1b[01;31m\x1b[Kpthread_mutex_lock\x1b[m\x1b[K(&mutex_lock_);\n'}
+[4.597230] (ldlidar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.597902] (ldlidar) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\n'}
+[4.601578] (-) TimerEvent: {}
+[4.610187] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LogModule::\x1b[01;32m\x1b[KUnLock\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.611295] (ldlidar) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar/ldlidar_driver/src/logger/log_module.cpp:196:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_unlock\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.616407] (ldlidar) StderrLine: {'line': b'  196 |         \x1b[01;31m\x1b[Kpthread_mutex_unlock\x1b[m\x1b[K(&mutex_lock_);\n'}
+[4.616629] (ldlidar) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.616778] (ldlidar) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpthread_mutex_t\x1b[m\x1b[K\n'}
+[4.701726] (-) TimerEvent: {}
+[4.804087] (-) TimerEvent: {}
+[4.877213] (ldlidar) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ldlidar_node.dir/build.make:132: CMakeFiles/ldlidar_node.dir/ldlidar_driver/src/logger/log_module.cpp.o] Error 1\n'}
+[4.878404] (ldlidar) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[4.909063] (-) TimerEvent: {}
+[5.009695] (-) TimerEvent: {}
+[5.110659] (-) TimerEvent: {}
+[5.216082] (-) TimerEvent: {}
+[5.316777] (-) TimerEvent: {}
+[5.420074] (-) TimerEvent: {}
+[5.520743] (-) TimerEvent: {}
+[5.623076] (-) TimerEvent: {}
+[5.724044] (-) TimerEvent: {}
+[5.830082] (-) TimerEvent: {}
+[5.930804] (-) TimerEvent: {}
+[6.035082] (-) TimerEvent: {}
+[6.135791] (-) TimerEvent: {}
+[6.236762] (-) TimerEvent: {}
+[6.339530] (-) TimerEvent: {}
+[6.443082] (-) TimerEvent: {}
+[6.546078] (-) TimerEvent: {}
+[6.646836] (-) TimerEvent: {}
+[6.749101] (-) TimerEvent: {}
+[6.849771] (-) TimerEvent: {}
+[6.950867] (-) TimerEvent: {}
+[7.054073] (-) TimerEvent: {}
+[7.154750] (-) TimerEvent: {}
+[7.255474] (-) TimerEvent: {}
+[7.358081] (-) TimerEvent: {}
+[7.459042] (-) TimerEvent: {}
+[7.563077] (-) TimerEvent: {}
+[7.663793] (-) TimerEvent: {}
+[7.767094] (-) TimerEvent: {}
+[7.867848] (-) TimerEvent: {}
+[7.971071] (-) TimerEvent: {}
+[8.071805] (-) TimerEvent: {}
+[8.172864] (-) TimerEvent: {}
+[8.273827] (-) TimerEvent: {}
+[8.380074] (-) TimerEvent: {}
+[8.480793] (-) TimerEvent: {}
+[8.581710] (-) TimerEvent: {}
+[8.682659] (-) TimerEvent: {}
+[8.783642] (-) TimerEvent: {}
+[8.886076] (-) TimerEvent: {}
+[8.987064] (-) TimerEvent: {}
+[9.088089] (-) TimerEvent: {}
+[9.194090] (-) TimerEvent: {}
+[9.294827] (-) TimerEvent: {}
+[9.395748] (-) TimerEvent: {}
+[9.499083] (-) TimerEvent: {}
+[9.599801] (-) TimerEvent: {}
+[9.700780] (-) TimerEvent: {}
+[9.804261] (-) TimerEvent: {}
+[9.905186] (-) TimerEvent: {}
+[10.008295] (-) TimerEvent: {}
+[10.112083] (-) TimerEvent: {}
+[10.212824] (-) TimerEvent: {}
+[10.316076] (-) TimerEvent: {}
+[10.416804] (-) TimerEvent: {}
+[10.520083] (-) TimerEvent: {}
+[10.620798] (-) TimerEvent: {}
+[10.724079] (-) TimerEvent: {}
+[10.824807] (-) TimerEvent: {}
+[10.928077] (-) TimerEvent: {}
+[11.031077] (-) TimerEvent: {}
+[11.131789] (-) TimerEvent: {}
+[11.234098] (-) TimerEvent: {}
+[11.335065] (-) TimerEvent: {}
+[11.441093] (-) TimerEvent: {}
+[11.544085] (-) TimerEvent: {}
+[11.644774] (-) TimerEvent: {}
+[11.745764] (-) TimerEvent: {}
+[11.846815] (-) TimerEvent: {}
+[11.947716] (-) TimerEvent: {}
+[12.056073] (-) TimerEvent: {}
+[12.156785] (-) TimerEvent: {}
+[12.257652] (-) TimerEvent: {}
+[12.358725] (-) TimerEvent: {}
+[12.461098] (-) TimerEvent: {}
+[12.564092] (-) TimerEvent: {}
+[12.667085] (-) TimerEvent: {}
+[12.767772] (-) TimerEvent: {}
+[12.871064] (-) TimerEvent: {}
+[12.973065] (-) TimerEvent: {}
+[13.073758] (-) TimerEvent: {}
+[13.176084] (-) TimerEvent: {}
+[13.276759] (-) TimerEvent: {}
+[13.377519] (-) TimerEvent: {}
+[13.481068] (-) TimerEvent: {}
+[13.581740] (-) TimerEvent: {}
+[13.682252] (-) TimerEvent: {}
+[13.782747] (-) TimerEvent: {}
+[13.883271] (-) TimerEvent: {}
+[13.985093] (-) TimerEvent: {}
+[14.087084] (-) TimerEvent: {}
+[14.187880] (-) TimerEvent: {}
+[14.293084] (-) TimerEvent: {}
+[14.393814] (-) TimerEvent: {}
+[14.497070] (-) TimerEvent: {}
+[14.597913] (-) TimerEvent: {}
+[14.701081] (-) TimerEvent: {}
+[14.804080] (-) TimerEvent: {}
+[14.905046] (-) TimerEvent: {}
+[15.011076] (-) TimerEvent: {}
+[15.111842] (-) TimerEvent: {}
+[15.215084] (-) TimerEvent: {}
+[15.315769] (-) TimerEvent: {}
+[15.418095] (-) TimerEvent: {}
+[15.519351] (-) TimerEvent: {}
+[15.623075] (-) TimerEvent: {}
+[15.723722] (-) TimerEvent: {}
+[15.827074] (-) TimerEvent: {}
+[15.928000] (-) TimerEvent: {}
+[16.031077] (-) TimerEvent: {}
+[16.133071] (-) TimerEvent: {}
+[16.234044] (-) TimerEvent: {}
+[16.337076] (-) TimerEvent: {}
+[16.438029] (-) TimerEvent: {}
+[16.541058] (-) TimerEvent: {}
+[16.641728] (-) TimerEvent: {}
+[16.742594] (-) TimerEvent: {}
+[16.847243] (-) TimerEvent: {}
+[16.947809] (-) TimerEvent: {}
+[17.048337] (-) TimerEvent: {}
+[17.152071] (-) TimerEvent: {}
+[17.252772] (-) TimerEvent: {}
+[17.353619] (-) TimerEvent: {}
+[17.461080] (-) TimerEvent: {}
+[17.563088] (-) TimerEvent: {}
+[17.564119] (ldlidar) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ldlidar_node.dir/all] Error 2\n'}
+[17.565117] (ldlidar) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.581574] (ldlidar) CommandEnded: {'returncode': 2}
+[17.627409] (ldlidar) JobEnded: {'identifier': 'ldlidar', 'rc': 2}
+[17.663225] (-) TimerEvent: {}
+[17.765453] (-) TimerEvent: {}
+[17.866153] (-) TimerEvent: {}
+[17.966806] (-) TimerEvent: {}
+[18.073080] (-) TimerEvent: {}
+[18.173764] (-) TimerEvent: {}
+[18.277075] (-) TimerEvent: {}
+[18.377989] (-) TimerEvent: {}
+[18.478989] (-) TimerEvent: {}
+[18.582072] (-) TimerEvent: {}
+[18.682835] (-) TimerEvent: {}
+[18.783810] (-) TimerEvent: {}
+[18.889068] (-) TimerEvent: {}
+[18.989760] (-) TimerEvent: {}
+[19.090672] (-) TimerEvent: {}
+[19.191660] (-) TimerEvent: {}
+[19.292774] (-) TimerEvent: {}
+[19.396303] (-) TimerEvent: {}
+[19.497312] (-) TimerEvent: {}
+[19.598270] (-) TimerEvent: {}
+[19.702230] (-) TimerEvent: {}
+[19.802952] (-) TimerEvent: {}
+[19.906076] (-) TimerEvent: {}
+[20.006779] (-) TimerEvent: {}
+[20.107677] (-) TimerEvent: {}
+[20.212065] (-) TimerEvent: {}
+[20.312768] (-) TimerEvent: {}
+[20.416072] (-) TimerEvent: {}
+[20.517044] (-) TimerEvent: {}
+[20.617939] (-) TimerEvent: {}
+[20.718899] (-) TimerEvent: {}
+[20.825081] (-) TimerEvent: {}
+[20.925772] (-) TimerEvent: {}
+[21.029067] (-) TimerEvent: {}
+[21.129789] (-) TimerEvent: {}
+[21.230723] (-) TimerEvent: {}
+[21.334064] (-) TimerEvent: {}
+[21.434952] (-) TimerEvent: {}
+[21.535888] (-) TimerEvent: {}
+[21.636813] (-) TimerEvent: {}
+[21.739074] (-) TimerEvent: {}
+[21.839941] (-) TimerEvent: {}
+[21.945066] (-) TimerEvent: {}
+[22.045725] (-) TimerEvent: {}
+[22.146401] (-) TimerEvent: {}
+[22.247123] (-) TimerEvent: {}
+[22.350065] (-) TimerEvent: {}
+[22.450708] (-) TimerEvent: {}
+[22.554068] (-) TimerEvent: {}
+[22.654744] (-) TimerEvent: {}
+[22.755452] (-) TimerEvent: {}
+[22.856147] (-) TimerEvent: {}
+[22.959067] (-) TimerEvent: {}
+[23.059747] (-) TimerEvent: {}
+[23.160650] (-) TimerEvent: {}
+[23.262734] (-) TimerEvent: {}
+[23.363635] (-) TimerEvent: {}
+[23.466279] (-) TimerEvent: {}
+[23.567203] (-) TimerEvent: {}
+[23.673067] (-) TimerEvent: {}
+[23.774010] (-) TimerEvent: {}
+[23.874866] (-) TimerEvent: {}
+[23.975834] (-) TimerEvent: {}
+[24.079067] (-) TimerEvent: {}
+[24.181065] (-) TimerEvent: {}
+[24.282027] (-) TimerEvent: {}
+[24.383011] (-) TimerEvent: {}
+[24.484010] (-) TimerEvent: {}
+[24.589078] (-) TimerEvent: {}
+[24.692073] (-) TimerEvent: {}
+[24.792769] (-) TimerEvent: {}
+[24.893739] (-) TimerEvent: {}
+[24.994649] (-) TimerEvent: {}
+[25.095665] (-) TimerEvent: {}
+[25.199475] (-) TimerEvent: {}
+[25.303092] (-) TimerEvent: {}
+[25.406071] (-) TimerEvent: {}
+[25.507196] (-) TimerEvent: {}
+[25.608037] (-) TimerEvent: {}
+[25.709031] (-) TimerEvent: {}
+[25.812110] (-) TimerEvent: {}
+[25.913226] (-) TimerEvent: {}
+[26.014062] (-) TimerEvent: {}
+[26.115643] (-) TimerEvent: {}
+[26.217279] (-) TimerEvent: {}
+[26.323075] (-) TimerEvent: {}
+[26.423770] (-) TimerEvent: {}
+[26.524716] (-) TimerEvent: {}
+[26.625742] (-) TimerEvent: {}
+[26.726744] (-) TimerEvent: {}
+[26.830522] (-) TimerEvent: {}
+[26.935079] (-) TimerEvent: {}
+[27.035987] (-) TimerEvent: {}
+[27.140081] (-) TimerEvent: {}
+[27.240764] (-) TimerEvent: {}
+[27.341720] (-) TimerEvent: {}
+[27.442693] (-) TimerEvent: {}
+[27.543639] (-) TimerEvent: {}
+[27.562723] (robot_pose_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_pose_publisher\x1b[0m\n'}
+[27.643824] (-) TimerEvent: {}
+[27.747085] (-) TimerEvent: {}
+[27.847883] (-) TimerEvent: {}
+[27.948913] (-) TimerEvent: {}
+[28.051331] (-) TimerEvent: {}
+[28.152401] (-) TimerEvent: {}
+[28.255774] (-) TimerEvent: {}
+[28.357012] (-) TimerEvent: {}
+[28.460409] (-) TimerEvent: {}
+[28.561510] (-) TimerEvent: {}
+[28.662581] (-) TimerEvent: {}
+[28.767119] (-) TimerEvent: {}
+[28.867898] (-) TimerEvent: {}
+[28.972247] (-) TimerEvent: {}
+[29.073621] (-) TimerEvent: {}
+[29.174456] (-) TimerEvent: {}
+[29.278111] (-) TimerEvent: {}
+[29.378836] (-) TimerEvent: {}
+[29.479897] (-) TimerEvent: {}
+[29.580867] (-) TimerEvent: {}
+[29.684285] (-) TimerEvent: {}
+[29.788074] (-) TimerEvent: {}
+[29.888606] (-) TimerEvent: {}
+[29.913154] (robot_pose_publisher) StdoutLine: {'line': b'[100%] Built target robot_pose_publisher\n'}
+[29.962186] (robot_pose_publisher) JobEnded: {'identifier': 'robot_pose_publisher', 'rc': 'SIGINT'}
+[29.990078] (-) TimerEvent: {}
+[30.090583] (-) TimerEvent: {}
+[30.191100] (-) TimerEvent: {}
+[30.294353] (-) TimerEvent: {}
+[30.395333] (-) TimerEvent: {}
+[30.499069] (-) TimerEvent: {}
+[30.599769] (-) TimerEvent: {}
+[30.700700] (-) TimerEvent: {}
+[30.801714] (-) TimerEvent: {}
+[30.903491] (-) TimerEvent: {}
+[31.005485] (-) TimerEvent: {}
+[31.108304] (-) TimerEvent: {}
+[31.212074] (-) TimerEvent: {}
+[31.312811] (-) TimerEvent: {}
+[31.413782] (-) TimerEvent: {}
+[31.514507] (-) TimerEvent: {}
+[31.616246] (-) TimerEvent: {}
+[31.716945] (-) TimerEvent: {}
+[31.819319] (-) TimerEvent: {}
+[31.920278] (-) TimerEvent: {}
+[32.023455] (-) TimerEvent: {}
+[32.124162] (-) TimerEvent: {}
+[32.224871] (-) TimerEvent: {}
+[32.325671] (-) TimerEvent: {}
+[32.429075] (-) TimerEvent: {}
+[32.529840] (-) TimerEvent: {}
+[32.630927] (-) TimerEvent: {}
+[32.734289] (-) TimerEvent: {}
+[32.838081] (-) TimerEvent: {}
+[32.938821] (-) TimerEvent: {}
+[33.042079] (-) TimerEvent: {}
+[33.142783] (-) TimerEvent: {}
+[33.243505] (-) TimerEvent: {}
+[33.344217] (-) TimerEvent: {}
+[33.445069] (-) TimerEvent: {}
+[33.548455] (-) TimerEvent: {}
+[33.649384] (-) TimerEvent: {}
+[33.750491] (-) TimerEvent: {}
+[33.856071] (-) TimerEvent: {}
+[33.956756] (-) TimerEvent: {}
+[34.057483] (-) TimerEvent: {}
+[34.161072] (-) TimerEvent: {}
+[34.261855] (-) TimerEvent: {}
+[34.362870] (-) TimerEvent: {}
+[34.465247] (-) TimerEvent: {}
+[34.566188] (-) TimerEvent: {}
+[34.667081] (-) TimerEvent: {}
+[34.774069] (-) TimerEvent: {}
+[34.874749] (-) TimerEvent: {}
+[34.979082] (-) TimerEvent: {}
+[35.079795] (-) TimerEvent: {}
+[35.180794] (-) TimerEvent: {}
+[35.281777] (-) TimerEvent: {}
+[35.385077] (-) TimerEvent: {}
+[35.488080] (-) TimerEvent: {}
+[35.588842] (-) TimerEvent: {}
+[35.689879] (-) TimerEvent: {}
+[35.790852] (-) TimerEvent: {}
+[35.894300] (-) TimerEvent: {}
+[35.995281] (-) TimerEvent: {}
+[36.098074] (-) TimerEvent: {}
+[36.200079] (-) TimerEvent: {}
+[36.300982] (-) TimerEvent: {}
+[36.401942] (-) TimerEvent: {}
+[36.505527] (-) TimerEvent: {}
+[36.606469] (-) TimerEvent: {}
+[36.707396] (-) TimerEvent: {}
+[36.808485] (-) TimerEvent: {}
+[36.911523] (-) TimerEvent: {}
+[37.012616] (-) TimerEvent: {}
+[37.113620] (-) TimerEvent: {}
+[37.218085] (-) TimerEvent: {}
+[37.318781] (-) TimerEvent: {}
+[37.419731] (-) TimerEvent: {}
+[37.520741] (-) TimerEvent: {}
+[37.625081] (-) TimerEvent: {}
+[37.725890] (-) TimerEvent: {}
+[37.826875] (-) TimerEvent: {}
+[37.927859] (-) TimerEvent: {}
+[38.030338] (-) TimerEvent: {}
+[38.131388] (-) TimerEvent: {}
+[38.236075] (-) TimerEvent: {}
+[38.336824] (-) TimerEvent: {}
+[38.440076] (-) TimerEvent: {}
+[38.540811] (-) TimerEvent: {}
+[38.641815] (-) TimerEvent: {}
+[38.748092] (-) TimerEvent: {}
+[38.851079] (-) TimerEvent: {}
+[38.951811] (-) TimerEvent: {}
+[39.052812] (-) TimerEvent: {}
+[39.153984] (-) TimerEvent: {}
+[39.255024] (-) TimerEvent: {}
+[39.359080] (-) TimerEvent: {}
+[39.459837] (-) TimerEvent: {}
+[39.560907] (-) TimerEvent: {}
+[39.661908] (-) TimerEvent: {}
+[39.765529] (-) TimerEvent: {}
+[39.866480] (-) TimerEvent: {}
+[39.967500] (-) TimerEvent: {}
+[40.069746] (-) TimerEvent: {}
+[40.170751] (-) TimerEvent: {}
+[40.273306] (-) TimerEvent: {}
+[40.377103] (-) TimerEvent: {}
+[40.477864] (-) TimerEvent: {}
+[40.578821] (-) TimerEvent: {}
+[40.679809] (-) TimerEvent: {}
+[40.783088] (-) TimerEvent: {}
+[40.886079] (-) TimerEvent: {}
+[40.986802] (-) TimerEvent: {}
+[41.087818] (-) TimerEvent: {}
+[41.191089] (-) TimerEvent: {}
+[41.291953] (-) TimerEvent: {}
+[41.392914] (-) TimerEvent: {}
+[41.495544] (-) TimerEvent: {}
+[41.596532] (-) TimerEvent: {}
+[41.698854] (-) TimerEvent: {}
+[41.800044] (-) TimerEvent: {}
+[41.902502] (-) TimerEvent: {}
+[42.003575] (-) TimerEvent: {}
+[42.107311] (-) TimerEvent: {}
+[42.210083] (-) TimerEvent: {}
+[42.310780] (-) TimerEvent: {}
+[42.411576] (-) TimerEvent: {}
+[42.512421] (-) TimerEvent: {}
+[42.614525] (-) TimerEvent: {}
+[42.718072] (-) TimerEvent: {}
+[42.818779] (-) TimerEvent: {}
+[42.919500] (-) TimerEvent: {}
+[43.020486] (-) TimerEvent: {}
+[43.124350] (-) TimerEvent: {}
+[43.224938] (-) TimerEvent: {}
+[43.326051] (-) TimerEvent: {}
+[43.429111] (-) TimerEvent: {}
+[43.529905] (-) TimerEvent: {}
+[43.630900] (-) TimerEvent: {}
+[43.737085] (-) TimerEvent: {}
+[43.837900] (-) TimerEvent: {}
+[43.938924] (-) TimerEvent: {}
+[44.039955] (-) TimerEvent: {}
+[44.141180] (-) TimerEvent: {}
+[44.245469] (-) TimerEvent: {}
+[44.346678] (-) TimerEvent: {}
+[44.449105] (-) TimerEvent: {}
+[44.550307] (-) TimerEvent: {}
+[44.653425] (-) TimerEvent: {}
+[44.754244] (-) TimerEvent: {}
+[44.854738] (-) TimerEvent: {}
+[44.920770] (ugv_base_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable base_node_ekf\x1b[0m\n'}
+[44.954921] (-) TimerEvent: {}
+[45.057094] (-) TimerEvent: {}
+[45.157895] (-) TimerEvent: {}
+[45.260320] (-) TimerEvent: {}
+[45.361241] (-) TimerEvent: {}
+[45.464405] (-) TimerEvent: {}
+[45.569151] (-) TimerEvent: {}
+[45.670261] (-) TimerEvent: {}
+[45.771484] (-) TimerEvent: {}
+[45.874579] (-) TimerEvent: {}
+[45.976042] (-) TimerEvent: {}
+[46.081070] (-) TimerEvent: {}
+[46.181774] (-) TimerEvent: {}
+[46.239124] (ugv_base_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable base_node\x1b[0m\n'}
+[46.282069] (-) TimerEvent: {}
+[46.383486] (-) TimerEvent: {}
+[46.488161] (-) TimerEvent: {}
+[46.589115] (-) TimerEvent: {}
+[46.690108] (-) TimerEvent: {}
+[46.791069] (-) TimerEvent: {}
+[46.895151] (-) TimerEvent: {}
+[46.999112] (-) TimerEvent: {}
+[47.099846] (-) TimerEvent: {}
+[47.200811] (-) TimerEvent: {}
+[47.302329] (-) TimerEvent: {}
+[47.405772] (-) TimerEvent: {}
+[47.509109] (-) TimerEvent: {}
+[47.609990] (-) TimerEvent: {}
+[47.713101] (-) TimerEvent: {}
+[47.813754] (-) TimerEvent: {}
+[47.914523] (-) TimerEvent: {}
+[48.018448] (-) TimerEvent: {}
+[48.119062] (-) TimerEvent: {}
+[48.220706] (-) TimerEvent: {}
+[48.323235] (-) TimerEvent: {}
+[48.399354] (ugv_base_node) StdoutLine: {'line': b'[100%] Built target base_node_ekf\n'}
+[48.423407] (-) TimerEvent: {}
+[48.527310] (-) TimerEvent: {}
+[48.627919] (-) TimerEvent: {}
+[48.728557] (-) TimerEvent: {}
+[48.829359] (-) TimerEvent: {}
+[48.931229] (-) TimerEvent: {}
+[49.032166] (-) TimerEvent: {}
+[49.134088] (-) TimerEvent: {}
+[49.237867] (-) TimerEvent: {}
+[49.338759] (-) TimerEvent: {}
+[49.414583] (ugv_base_node) StdoutLine: {'line': b'[100%] Built target base_node\n'}
+[49.438933] (-) TimerEvent: {}
+[49.452244] (ugv_base_node) JobEnded: {'identifier': 'ugv_base_node', 'rc': 'SIGINT'}
+[49.539058] (-) TimerEvent: {}
+[49.639564] (-) TimerEvent: {}
+[49.740091] (-) TimerEvent: {}
+[49.841171] (-) TimerEvent: {}
+[49.942028] (-) TimerEvent: {}
+[50.042463] (-) TimerEvent: {}
+[50.143233] (-) TimerEvent: {}
+[50.243825] (-) TimerEvent: {}
+[50.344581] (-) TimerEvent: {}
+[50.445188] (-) TimerEvent: {}
+[50.545990] (-) TimerEvent: {}
+[50.646591] (-) TimerEvent: {}
+[50.747351] (-) TimerEvent: {}
+[50.847954] (-) TimerEvent: {}
+[50.948720] (-) TimerEvent: {}
+[51.049332] (-) TimerEvent: {}
+[51.150081] (-) TimerEvent: {}
+[51.250677] (-) TimerEvent: {}
+[51.351443] (-) TimerEvent: {}
+[51.452046] (-) TimerEvent: {}
+[51.552786] (-) TimerEvent: {}
+[51.653203] (-) TimerEvent: {}
+[51.753953] (-) TimerEvent: {}
+[51.854577] (-) TimerEvent: {}
+[51.955331] (-) TimerEvent: {}
+[52.055987] (-) TimerEvent: {}
+[52.156372] (-) TimerEvent: {}
+[52.257023] (-) TimerEvent: {}
+[52.357736] (-) TimerEvent: {}
+[52.458597] (-) TimerEvent: {}
+[52.558999] (-) TimerEvent: {}
+[52.659389] (-) TimerEvent: {}
+[52.759786] (-) TimerEvent: {}
+[52.860446] (-) TimerEvent: {}
+[52.960837] (-) TimerEvent: {}
+[53.061257] (-) TimerEvent: {}
+[53.161972] (-) TimerEvent: {}
+[53.262627] (-) TimerEvent: {}
+[53.363304] (-) TimerEvent: {}
+[53.463947] (-) TimerEvent: {}
+[53.564402] (-) TimerEvent: {}
+[53.665180] (-) TimerEvent: {}
+[53.765827] (-) TimerEvent: {}
+[53.866443] (-) TimerEvent: {}
+[53.967124] (-) TimerEvent: {}
+[54.067773] (-) TimerEvent: {}
+[54.168440] (-) TimerEvent: {}
+[54.269057] (-) TimerEvent: {}
+[54.369702] (-) TimerEvent: {}
+[54.470363] (-) TimerEvent: {}
+[54.571007] (-) TimerEvent: {}
+[54.671657] (-) TimerEvent: {}
+[54.772340] (-) TimerEvent: {}
+[54.872981] (-) TimerEvent: {}
+[54.973628] (-) TimerEvent: {}
+[55.074331] (-) TimerEvent: {}
+[55.174983] (-) TimerEvent: {}
+[55.275625] (-) TimerEvent: {}
+[55.376352] (-) TimerEvent: {}
+[55.477023] (-) TimerEvent: {}
+[55.577773] (-) TimerEvent: {}
+[55.678246] (-) TimerEvent: {}
+[55.778678] (-) TimerEvent: {}
+[55.879074] (-) TimerEvent: {}
+[55.979446] (-) TimerEvent: {}
+[56.079839] (-) TimerEvent: {}
+[56.180240] (-) TimerEvent: {}
+[56.280642] (-) TimerEvent: {}
+[56.381085] (-) TimerEvent: {}
+[56.481638] (-) TimerEvent: {}
+[56.582160] (-) TimerEvent: {}
+[56.682611] (-) TimerEvent: {}
+[56.783055] (-) TimerEvent: {}
+[56.883468] (-) TimerEvent: {}
+[56.983916] (-) TimerEvent: {}
+[57.084333] (-) TimerEvent: {}
+[57.184751] (-) TimerEvent: {}
+[57.285198] (-) TimerEvent: {}
+[57.385635] (-) TimerEvent: {}
+[57.486096] (-) TimerEvent: {}
+[57.586605] (-) TimerEvent: {}
+[57.687202] (-) TimerEvent: {}
+[57.787723] (-) TimerEvent: {}
+[57.888218] (-) TimerEvent: {}
+[57.988790] (-) TimerEvent: {}
+[58.089394] (-) TimerEvent: {}
+[58.189836] (-) TimerEvent: {}
+[58.260139] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[58.290034] (-) TimerEvent: {}
+[58.390664] (-) TimerEvent: {}
+[58.491220] (-) TimerEvent: {}
+[58.591870] (-) TimerEvent: {}
+[58.692556] (-) TimerEvent: {}
+[58.793311] (-) TimerEvent: {}
+[58.894084] (-) TimerEvent: {}
+[58.995183] (-) TimerEvent: {}
+[59.096244] (-) TimerEvent: {}
+[59.197259] (-) TimerEvent: {}
+[59.298528] (-) TimerEvent: {}
+[59.399834] (-) TimerEvent: {}
+[59.501110] (-) TimerEvent: {}
+[59.602355] (-) TimerEvent: {}
+[59.703533] (-) TimerEvent: {}
+[59.804663] (-) TimerEvent: {}
+[59.906187] (-) TimerEvent: {}
+[60.007948] (-) TimerEvent: {}
+[60.109213] (-) TimerEvent: {}
+[60.210881] (-) TimerEvent: {}
+[60.298284] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[60.311143] (-) TimerEvent: {}
+[60.412525] (-) TimerEvent: {}
+[60.514111] (-) TimerEvent: {}
+[60.615614] (-) TimerEvent: {}
+[60.716447] (-) TimerEvent: {}
+[60.817085] (-) TimerEvent: {}
+[60.918202] (-) TimerEvent: {}
+[61.019134] (-) TimerEvent: {}
+[61.119870] (-) TimerEvent: {}
+[61.220709] (-) TimerEvent: {}
+[61.321199] (-) TimerEvent: {}
+[61.418760] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry\n'}
+[61.421316] (-) TimerEvent: {}
+[61.521736] (-) TimerEvent: {}
+[61.622063] (-) TimerEvent: {}
+[61.722384] (-) TimerEvent: {}
+[61.812907] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[61.822503] (-) TimerEvent: {}
+[61.833211] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 'SIGINT'}
+[61.843930] (ugv_interface) JobSkipped: {'identifier': 'ugv_interface'}
+[61.844053] (-) EventReactorShutdown: {}

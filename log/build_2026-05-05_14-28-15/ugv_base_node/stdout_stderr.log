@@ -1,0 +1,22 @@
+[ 50%] Built target base_node_ekf
+[100%] Built target base_node
+-- Install configuration: ""
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/lib/ugv_base_node/base_node
+-- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/lib/ugv_base_node/base_node" to ""
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/lib/ugv_base_node/base_node_ekf
+-- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/lib/ugv_base_node/base_node_ekf" to ""
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ament_index/resource_index/package_run_dependencies/ugv_base_node
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ament_index/resource_index/parent_prefix_path/ugv_base_node
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/ament_prefix_path.sh
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/ament_prefix_path.dsv
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/path.sh
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/path.dsv
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.bash
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.sh
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.zsh
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.dsv
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/package.dsv
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ament_index/resource_index/packages/ugv_base_node
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/cmake/ugv_base_nodeConfig.cmake
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/cmake/ugv_base_nodeConfig-version.cmake
+-- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/package.xml

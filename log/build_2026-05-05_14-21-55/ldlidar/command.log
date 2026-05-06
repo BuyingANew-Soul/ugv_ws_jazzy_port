@@ -1,0 +1,1 @@
+Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_else/ldlidar -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ldlidar

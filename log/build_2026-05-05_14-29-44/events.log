@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.000422] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000448] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000516] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000777] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000919] (-) JobUnselected: {'identifier': 'emcl2'}
+[0.000939] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.001104] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001124] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001142] (-) JobUnselected: {'identifier': 'robot_pose_publisher'}
+[0.001248] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001267] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001285] (-) JobUnselected: {'identifier': 'ugv_base_node'}
+[0.001314] (-) JobUnselected: {'identifier': 'ugv_bringup'}
+[0.001333] (-) JobUnselected: {'identifier': 'ugv_gazebo'}
+[0.001368] (-) JobUnselected: {'identifier': 'ugv_interface'}
+[0.001386] (-) JobUnselected: {'identifier': 'vizanti'}
+[0.001420] (-) JobUnselected: {'identifier': 'vizanti_cpp'}
+[0.001746] (-) JobUnselected: {'identifier': 'vizanti_demos'}
+[0.001790] (-) JobUnselected: {'identifier': 'vizanti_msgs'}
+[0.001811] (-) JobUnselected: {'identifier': 'vizanti_server'}
+[0.001845] (ugv_chat_ai) JobQueued: {'identifier': 'ugv_chat_ai', 'dependencies': OrderedDict()}
+[0.001879] (ugv_description) JobQueued: {'identifier': 'ugv_description', 'dependencies': OrderedDict()}
+[0.002104] (ugv_nav) JobQueued: {'identifier': 'ugv_nav', 'dependencies': OrderedDict()}
+[0.002135] (ugv_slam) JobQueued: {'identifier': 'ugv_slam', 'dependencies': OrderedDict()}
+[0.002158] (ugv_tools) JobQueued: {'identifier': 'ugv_tools', 'dependencies': OrderedDict()}
+[0.002189] (ugv_vision) JobQueued: {'identifier': 'ugv_vision', 'dependencies': OrderedDict()}
+[0.002217] (ugv_web_app) JobQueued: {'identifier': 'ugv_web_app', 'dependencies': OrderedDict()}
+[0.002240] (ugv_chat_ai) JobStarted: {'identifier': 'ugv_chat_ai'}
+[0.010162] (ugv_description) JobStarted: {'identifier': 'ugv_description'}
+[0.014696] (ugv_nav) JobStarted: {'identifier': 'ugv_nav'}
+[0.019493] (ugv_slam) JobStarted: {'identifier': 'ugv_slam'}
+[0.099659] (-) TimerEvent: {}
+[0.200029] (-) TimerEvent: {}
+[0.300398] (-) TimerEvent: {}
+[0.329264] (ugv_description) JobProgress: {'identifier': 'ugv_description', 'progress': 'cmake'}
+[0.330088] (ugv_description) Command: {'cmd': ['/usr/bin/cmake', '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_description'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_description', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.334083] (ugv_nav) JobProgress: {'identifier': 'ugv_nav', 'progress': 'cmake'}
+[0.335842] (ugv_nav) Command: {'cmd': ['/usr/bin/cmake', '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_nav', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_nav'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_nav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_nav', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.342045] (ugv_slam) JobProgress: {'identifier': 'ugv_slam', 'progress': 'cmake'}
+[0.344390] (ugv_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_slam', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_slam'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.403000] (-) TimerEvent: {}
+[0.485994] (ugv_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.498338] (ugv_nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.503118] (-) TimerEvent: {}
+[0.512967] (ugv_slam) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.605924] (-) TimerEvent: {}
+[0.653181] (ugv_nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.676242] (ugv_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.676659] (ugv_slam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.687608] (ugv_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.706028] (-) TimerEvent: {}
+[0.706805] (ugv_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.707207] (ugv_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.806145] (-) TimerEvent: {}
+[0.907880] (-) TimerEvent: {}
+[0.941004] (ugv_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.942857] (ugv_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.957332] (ugv_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.958187] (ugv_nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.963851] (ugv_nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.964144] (ugv_nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.974278] (ugv_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.975242] (ugv_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.976728] (ugv_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.978523] (ugv_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.981700] (ugv_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.982693] (ugv_slam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.983879] (ugv_slam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.995813] (ugv_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.007699] (ugv_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.008158] (-) TimerEvent: {}
+[1.108482] (-) TimerEvent: {}
+[1.218105] (-) TimerEvent: {}
+[1.255910] (ugv_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.264866] (ugv_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.274103] (ugv_nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.274368] (ugv_nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.274483] (ugv_nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.277775] (ugv_nav) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.279843] (ugv_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.282898] (ugv_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.283864] (ugv_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.284549] (ugv_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.289843] (ugv_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.312877] (ugv_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.313210] (ugv_slam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.313317] (ugv_slam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.320827] (ugv_slam) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.321157] (-) TimerEvent: {}
+[1.421461] (-) TimerEvent: {}
+[1.521962] (-) TimerEvent: {}
+[1.599245] (ugv_nav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.622137] (-) TimerEvent: {}
+[1.625085] (ugv_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.694017] (ugv_slam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.722872] (-) TimerEvent: {}
+[1.783525] (ugv_chat_ai) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai/build', '--no-deps', 'symlink_data'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 44542 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 44542 192.168.0.148 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.823006] (-) TimerEvent: {}
+[1.825960] (ugv_nav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.839842] (ugv_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.897824] (ugv_nav) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.898173] (ugv_nav) StderrLine: {'line': b'  By not providing "Findnav2_bringup.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.898301] (ugv_nav) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.898397] (ugv_nav) StderrLine: {'line': b'  "nav2_bringup", but CMake did not find one.\n'}
+[1.898491] (ugv_nav) StderrLine: {'line': b'\n'}
+[1.898581] (ugv_nav) StderrLine: {'line': b'  Could not find a package configuration file provided by "nav2_bringup" with\n'}
+[1.898667] (ugv_nav) StderrLine: {'line': b'  any of the following names:\n'}
+[1.898802] (ugv_nav) StderrLine: {'line': b'\n'}
+[1.901208] (ugv_nav) StderrLine: {'line': b'    nav2_bringupConfig.cmake\n'}
+[1.901377] (ugv_nav) StderrLine: {'line': b'    nav2_bringup-config.cmake\n'}
+[1.901523] (ugv_nav) StderrLine: {'line': b'\n'}
+[1.901634] (ugv_nav) StderrLine: {'line': b'  Add the installation prefix of "nav2_bringup" to CMAKE_PREFIX_PATH or set\n'}
+[1.901751] (ugv_nav) StderrLine: {'line': b'  "nav2_bringup_DIR" to a directory containing one of the above files.  If\n'}
+[1.901877] (ugv_nav) StderrLine: {'line': b'  "nav2_bringup" provides a separate development package or SDK, be sure it\n'}
+[1.901976] (ugv_nav) StderrLine: {'line': b'  has been installed.\n'}
+[1.902071] (ugv_nav) StderrLine: {'line': b'\n'}
+[1.902211] (ugv_nav) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.902338] (ugv_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[1.902456] (ugv_description) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.906629] (ugv_slam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.908227] (ugv_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.910278] (ugv_nav) CommandEnded: {'returncode': 1}
+[1.923134] (-) TimerEvent: {}
+[1.947813] (ugv_nav) JobEnded: {'identifier': 'ugv_nav', 'rc': 1}
+[1.964173] (ugv_slam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.985472] (ugv_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.023242] (-) TimerEvent: {}
+[2.059408] (ugv_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.123367] (-) TimerEvent: {}
+[2.178687] (ugv_slam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.183910] (ugv_slam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.184688] (ugv_slam) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.186129] (ugv_slam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.188685] (ugv_slam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.190784] (ugv_slam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.197868] (ugv_slam) StdoutLine: {'line': b'-- Configuring done (1.8s)\n'}
+[2.214199] (ugv_slam) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.223505] (-) TimerEvent: {}
+[2.224125] (ugv_slam) StdoutLine: {'line': b'-- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_slam\n'}
+[2.236265] (ugv_slam) JobEnded: {'identifier': 'ugv_slam', 'rc': 'SIGINT'}
+[2.257851] (ugv_description) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[2.262844] (ugv_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.264353] (ugv_description) StdoutLine: {'line': b'-- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_description\n'}
+[2.275802] (ugv_description) JobEnded: {'identifier': 'ugv_description', 'rc': 'SIGINT'}
+[2.323598] (-) TimerEvent: {}
+[2.333782] (ugv_chat_ai) StdoutLine: {'line': b'running develop\n'}
+[2.423688] (-) TimerEvent: {}
+[2.524010] (-) TimerEvent: {}
+[2.578624] (ugv_chat_ai) StdoutLine: {'line': b'running egg_info\n'}
+[2.578901] (ugv_chat_ai) StdoutLine: {'line': b'creating ugv_chat_ai.egg-info\n'}
+[2.601377] (ugv_chat_ai) StdoutLine: {'line': b'writing ugv_chat_ai.egg-info/PKG-INFO\n'}
+[2.601782] (ugv_chat_ai) StdoutLine: {'line': b'writing dependency_links to ugv_chat_ai.egg-info/dependency_links.txt\n'}
+[2.602004] (ugv_chat_ai) StdoutLine: {'line': b'writing entry points to ugv_chat_ai.egg-info/entry_points.txt\n'}
+[2.602148] (ugv_chat_ai) StdoutLine: {'line': b'writing requirements to ugv_chat_ai.egg-info/requires.txt\n'}
+[2.602266] (ugv_chat_ai) StdoutLine: {'line': b'writing top-level names to ugv_chat_ai.egg-info/top_level.txt\n'}
+[2.602420] (ugv_chat_ai) StdoutLine: {'line': b"writing manifest file 'ugv_chat_ai.egg-info/SOURCES.txt'\n"}
+[2.624074] (-) TimerEvent: {}
+[2.649498] (ugv_chat_ai) StdoutLine: {'line': b"reading manifest file 'ugv_chat_ai.egg-info/SOURCES.txt'\n"}
+[2.650410] (ugv_chat_ai) StdoutLine: {'line': b"writing manifest file 'ugv_chat_ai.egg-info/SOURCES.txt'\n"}
+[2.675279] (ugv_chat_ai) StdoutLine: {'line': b'running build_ext\n'}
+[2.675557] (ugv_chat_ai) StdoutLine: {'line': b'Creating /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/lib/python3.12/site-packages/ugv-chat-ai.egg-link (link to .)\n'}
+[2.676323] (ugv_chat_ai) StdoutLine: {'line': b'Installing app script to /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/lib/ugv_chat_ai\n'}
+[2.676714] (ugv_chat_ai) StdoutLine: {'line': b'\n'}
+[2.676883] (ugv_chat_ai) StdoutLine: {'line': b'Installed /home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai\n'}
+[2.676984] (ugv_chat_ai) StdoutLine: {'line': b'running symlink_data\n'}
+[2.677114] (ugv_chat_ai) StdoutLine: {'line': b'creating /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/share/ament_index\n'}
+[2.677226] (ugv_chat_ai) StdoutLine: {'line': b'creating /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/share/ament_index/resource_index\n'}
+[2.677316] (ugv_chat_ai) StdoutLine: {'line': b'creating /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/share/ament_index/resource_index/packages\n'}
+[2.677447] (ugv_chat_ai) StdoutLine: {'line': b'symbolically linking /home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai/resource/ugv_chat_ai -> /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/share/ament_index/resource_index/packages\n'}
+[2.677618] (ugv_chat_ai) StdoutLine: {'line': b'symbolically linking /home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai/package.xml -> /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/share/ugv_chat_ai\n'}
+[2.677720] (ugv_chat_ai) StdoutLine: {'line': b'creating /home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/share/ugv_chat_ai/launch\n'}
+[2.724185] (-) TimerEvent: {}
+[2.762017] (ugv_chat_ai) JobEnded: {'identifier': 'ugv_chat_ai', 'rc': 'SIGINT'}
+[2.763321] (ugv_tools) JobSkipped: {'identifier': 'ugv_tools'}
+[2.763361] (ugv_vision) JobSkipped: {'identifier': 'ugv_vision'}
+[2.763380] (ugv_web_app) JobSkipped: {'identifier': 'ugv_web_app'}
+[2.763399] (-) EventReactorShutdown: {}

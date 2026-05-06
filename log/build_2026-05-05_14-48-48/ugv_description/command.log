@@ -1,0 +1,4 @@
+Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_description -- -j4 -l4
+Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_description -- -j4 -l4
+Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_description
+Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_description

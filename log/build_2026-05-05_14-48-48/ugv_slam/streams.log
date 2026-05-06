@@ -1,0 +1,24 @@
+[0.379s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_slam -- -j4 -l4
+[0.484s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_slam -- -j4 -l4
+[0.487s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_slam
+[0.512s] -- Install configuration: ""
+[0.515s] -- Execute custom install script
+[0.519s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/launch/rtabmap_rgbd.launch.py
+[0.546s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/rviz/view_slam_2d.rviz
+[0.572s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/rviz/view_slam_3d.rviz
+[0.598s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ament_index/resource_index/package_run_dependencies/ugv_slam
+[0.625s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ament_index/resource_index/parent_prefix_path/ugv_slam
+[0.651s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/environment/ament_prefix_path.sh
+[0.675s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/environment/ament_prefix_path.dsv
+[0.698s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/environment/path.sh
+[0.722s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/environment/path.dsv
+[0.746s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/local_setup.bash
+[0.767s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/local_setup.sh
+[0.789s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/local_setup.zsh
+[0.810s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/local_setup.dsv
+[0.838s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/package.dsv
+[0.877s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ament_index/resource_index/packages/ugv_slam
+[0.905s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/cmake/ugv_slamConfig.cmake
+[0.932s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/cmake/ugv_slamConfig-version.cmake
+[0.954s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_slam/share/ugv_slam/package.xml
+[0.987s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_slam

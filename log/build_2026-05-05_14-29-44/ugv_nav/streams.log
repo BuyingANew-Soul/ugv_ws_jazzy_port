@@ -1,0 +1,35 @@
+[0.322s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_nav
+[0.484s] -- The C compiler identification is GNU 13.3.0
+[0.639s] -- The CXX compiler identification is GNU 13.3.0
+[0.673s] -- Detecting C compiler ABI info
+[0.926s] -- Detecting C compiler ABI info - done
+[0.943s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.949s] -- Detecting C compile features
+[0.949s] -- Detecting C compile features - done
+[0.965s] -- Detecting CXX compiler ABI info
+[1.241s] -- Detecting CXX compiler ABI info - done
+[1.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.260s] -- Detecting CXX compile features
+[1.260s] -- Detecting CXX compile features - done
+[1.263s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.585s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.812s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.883s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.883s]   By not providing "Findnav2_bringup.cmake" in CMAKE_MODULE_PATH this project
+[1.883s]   has asked CMake to find a package configuration file provided by
+[1.884s]   "nav2_bringup", but CMake did not find one.
+[1.884s] 
+[1.884s]   Could not find a package configuration file provided by "nav2_bringup" with
+[1.884s]   any of the following names:
+[1.886s] 
+[1.886s]     nav2_bringupConfig.cmake
+[1.887s]     nav2_bringup-config.cmake
+[1.887s] 
+[1.887s]   Add the installation prefix of "nav2_bringup" to CMAKE_PREFIX_PATH or set
+[1.887s]   "nav2_bringup_DIR" to a directory containing one of the above files.  If
+[1.887s]   "nav2_bringup" provides a separate development package or SDK, be sure it
+[1.887s]   has been installed.
+[1.887s] 
+[1.887s] -- Configuring incomplete, errors occurred!
+[1.888s] [0m
+[1.899s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_nav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_nav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_nav

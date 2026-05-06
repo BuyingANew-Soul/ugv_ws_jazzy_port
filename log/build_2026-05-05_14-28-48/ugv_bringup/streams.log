@@ -1,0 +1,22 @@
+[1.095s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_bringup': PYTHONPATH=/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_bringup build --build-base /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build install --record /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/install.log --single-version-externally-managed install_data
+[1.430s] running egg_info
+[1.453s] writing ../../../build/ugv_bringup/ugv_bringup.egg-info/PKG-INFO
+[1.453s] writing dependency_links to ../../../build/ugv_bringup/ugv_bringup.egg-info/dependency_links.txt
+[1.454s] writing entry points to ../../../build/ugv_bringup/ugv_bringup.egg-info/entry_points.txt
+[1.455s] writing requirements to ../../../build/ugv_bringup/ugv_bringup.egg-info/requires.txt
+[1.455s] writing top-level names to ../../../build/ugv_bringup/ugv_bringup.egg-info/top_level.txt
+[1.504s] reading manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[1.505s] writing manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[1.505s] running build
+[1.505s] running build_py
+[1.505s] running install
+[1.515s] running install_lib
+[1.538s] running install_data
+[1.539s] running install_egg_info
+[1.564s] removing '/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.564s] Copying ../../../build/ugv_bringup/ugv_bringup.egg-info to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup-0.0.0-py3.12.egg-info
+[1.565s] running install_scripts
+[1.731s] Installing ugv_bringup script to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/ugv_bringup
+[1.731s] Installing ugv_driver script to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/ugv_bringup
+[1.734s] writing list of installed files to '/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/install.log'
+[1.812s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_bringup' returned '0': PYTHONPATH=/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_bringup build --build-base /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build install --record /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_slam

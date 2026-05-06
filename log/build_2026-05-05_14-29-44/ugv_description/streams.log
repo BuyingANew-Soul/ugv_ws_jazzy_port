@@ -1,0 +1,23 @@
+[0.323s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_description
+[0.476s] -- The C compiler identification is GNU 13.3.0
+[0.666s] -- The CXX compiler identification is GNU 13.3.0
+[0.697s] -- Detecting C compiler ABI info
+[0.947s] -- Detecting C compiler ABI info - done
+[0.965s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.965s] -- Detecting C compile features
+[0.967s] -- Detecting C compile features - done
+[0.986s] -- Detecting CXX compiler ABI info
+[1.255s] -- Detecting CXX compiler ABI info - done
+[1.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.274s] -- Detecting CXX compile features
+[1.274s] -- Detecting CXX compile features - done
+[1.280s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.615s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.830s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.892s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.899s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.050s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.248s] -- Configuring done (1.9s)
+[2.253s] -- Generating done (0.0s)
+[2.254s] -- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_description

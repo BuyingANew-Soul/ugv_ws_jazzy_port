@@ -1,0 +1,50 @@
+[1.783s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_bringup': PYTHONPATH=/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_bringup build --build-base /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build install --record /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/install.log --single-version-externally-managed install_data
+[2.153s] running egg_info
+[2.153s] creating ../../../build/ugv_bringup/ugv_bringup.egg-info
+[2.177s] writing ../../../build/ugv_bringup/ugv_bringup.egg-info/PKG-INFO
+[2.178s] writing dependency_links to ../../../build/ugv_bringup/ugv_bringup.egg-info/dependency_links.txt
+[2.178s] writing entry points to ../../../build/ugv_bringup/ugv_bringup.egg-info/entry_points.txt
+[2.179s] writing requirements to ../../../build/ugv_bringup/ugv_bringup.egg-info/requires.txt
+[2.179s] writing top-level names to ../../../build/ugv_bringup/ugv_bringup.egg-info/top_level.txt
+[2.179s] writing manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[2.231s] reading manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[2.232s] writing manifest file '../../../build/ugv_bringup/ugv_bringup.egg-info/SOURCES.txt'
+[2.232s] running build
+[2.233s] running build_py
+[2.233s] creating /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build
+[2.233s] creating /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib
+[2.233s] creating /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup
+[2.233s] copying ugv_bringup/ugv_bringup.py -> /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup
+[2.234s] copying ugv_bringup/ugv_driver.py -> /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup
+[2.234s] copying ugv_bringup/__init__.py -> /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup
+[2.234s] running install
+[2.245s] running install_lib
+[2.270s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup
+[2.271s] copying /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup/ugv_bringup.py -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup
+[2.271s] copying /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup/ugv_driver.py -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup
+[2.271s] copying /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build/lib/ugv_bringup/__init__.py -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup
+[2.272s] byte-compiling /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup/ugv_bringup.py to ugv_bringup.cpython-312.pyc
+[2.276s] byte-compiling /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup/ugv_driver.py to ugv_driver.cpython-312.pyc
+[2.277s] byte-compiling /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup/__init__.py to __init__.cpython-312.pyc
+[2.278s] running install_data
+[2.278s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ament_index
+[2.278s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ament_index/resource_index
+[2.278s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ament_index/resource_index/packages
+[2.278s] copying resource/ugv_bringup -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ament_index/resource_index/packages
+[2.278s] copying package.xml -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup
+[2.278s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/launch
+[2.279s] copying launch/bringup_imu_ekf.launch.py -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/launch
+[2.279s] copying launch/bringup_imu_origin.launch.py -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/launch
+[2.279s] copying launch/bringup_lidar.launch.py -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/launch
+[2.279s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/rviz
+[2.279s] copying rviz/view_bringup.rviz -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/rviz
+[2.279s] creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/param
+[2.280s] copying param/imu_filter_param.yaml -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/param
+[2.280s] copying param/ekf.yaml -> /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/share/ugv_bringup/param
+[2.280s] running install_egg_info
+[2.308s] Copying ../../../build/ugv_bringup/ugv_bringup.egg-info to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv_bringup-0.0.0-py3.12.egg-info
+[2.310s] running install_scripts
+[2.497s] Installing ugv_bringup script to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/ugv_bringup
+[2.497s] Installing ugv_driver script to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/ugv_bringup
+[2.498s] writing list of installed files to '/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/install.log'
+[2.596s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_bringup' returned '0': PYTHONPATH=/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ugv_bringup build --build-base /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build install --record /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/install.log --single-version-externally-managed install_data
