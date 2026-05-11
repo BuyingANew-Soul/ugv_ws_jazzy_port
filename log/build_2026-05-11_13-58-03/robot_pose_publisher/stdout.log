@@ -1,0 +1,52 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Configuring done (4.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_pose_publisher.dir/src/robot_pose_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_pose_publisher[0m
+[100%] Built target robot_pose_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/lib/robot_pose_publisher/robot_pose_publisher
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/launch/robot_pose_publisher_launch.py
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/environment/ament_prefix_path.sh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/environment/path.sh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/environment/path.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.bash
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.sh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.zsh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/local_setup.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/package.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/ament_index/resource_index/packages/robot_pose_publisher
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/cmake/robot_pose_publisherConfig.cmake
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/cmake/robot_pose_publisherConfig-version.cmake
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/share/robot_pose_publisher/package.xml

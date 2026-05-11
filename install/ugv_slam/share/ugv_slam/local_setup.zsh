@@ -1,1 +1,0 @@
-/home/nameless/ugv_ws_jazzy_port/build/ugv_slam/ament_cmake_environment_hooks/local_setup.zsh

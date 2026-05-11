@@ -1,0 +1,247 @@
+[0.012s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_interface
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.282s] -- The CXX compiler identification is GNU 13.3.0
+[0.316s] -- Detecting C compiler ABI info
+[0.553s] -- Detecting C compiler ABI info - done
+[0.572s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.572s] -- Detecting C compile features
+[0.574s] -- Detecting C compile features - done
+[0.593s] -- Detecting CXX compiler ABI info
+[0.820s] -- Detecting CXX compiler ABI info - done
+[0.841s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.841s] -- Detecting CXX compile features
+[0.841s] -- Detecting CXX compile features - done
+[0.846s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.413s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.661s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.773s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.628s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.964s] -- Found PythonExtra: /usr/bin/python3  
+[8.303s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[8.464s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.475s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.560s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.565s] -- Added test 'lint_cmake' to check CMake code style
+[8.568s] -- Added test 'xmllint' to check XML markup files
+[8.581s] -- Configuring done (8.5s)
+[8.679s] -- Generating done (0.1s)
+[8.706s] -- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_interface
+[8.743s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_interface
+[8.746s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_interface -- -j4 -l4
+[8.898s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[8.925s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.935s] [  4%] Built target ament_cmake_python_symlink_ugv_interface
+[9.492s] running egg_info
+[9.493s] creating ugv_interface.egg-info
+[9.530s] writing ugv_interface.egg-info/PKG-INFO
+[9.531s] writing dependency_links to ugv_interface.egg-info/dependency_links.txt
+[9.531s] writing top-level names to ugv_interface.egg-info/top_level.txt
+[9.534s] writing manifest file 'ugv_interface.egg-info/SOURCES.txt'
+[9.717s] reading manifest file 'ugv_interface.egg-info/SOURCES.txt'
+[9.718s] writing manifest file 'ugv_interface.egg-info/SOURCES.txt'
+[9.843s] [  4%] Built target ugv_interface__rosidl_generator_type_description
+[9.856s] [  4%] Built target ament_cmake_python_build_ugv_interface_egg
+[9.900s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.972s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.084s] [  8%] Built target ugv_interface__rs
+[11.287s] [  8%] Built target ugv_interface__cpp
+[11.505s] [ 11%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_c.dir/rosidl_generator_c/ugv_interface/srv/detail/map_save__description.c.o[0m
+[11.511s] [ 15%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_c.dir/rosidl_generator_c/ugv_interface/srv/detail/map_save__functions.c.o[0m
+[11.511s] [ 13%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_c.dir/rosidl_generator_c/ugv_interface/srv/detail/map_save__type_support.c.o[0m
+[11.518s] [ 17%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_c.dir/rosidl_generator_c/ugv_interface/action/detail/behavior__description.c.o[0m
+[11.726s] [ 20%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_c.dir/rosidl_generator_c/ugv_interface/action/detail/behavior__functions.c.o[0m
+[11.771s] [ 22%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_c.dir/rosidl_generator_c/ugv_interface/action/detail/behavior__type_support.c.o[0m
+[12.201s] [ 24%] [32m[1mLinking C shared library libugv_interface__rosidl_generator_c.so[0m
+[12.308s] [ 24%] Built target ugv_interface__rosidl_generator_c
+[12.342s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.356s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.362s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.362s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.516s] [ 35%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ugv_interface/srv/map_save__type_support.cpp.o[0m
+[13.727s] [ 37%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ugv_interface/action/behavior__type_support.cpp.o[0m
+[14.017s] [ 40%] [32m[1mLinking CXX shared library libugv_interface__rosidl_typesupport_c.so[0m
+[14.235s] [ 42%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ugv_interface/srv/detail/map_save__type_support.c.o[0m
+[14.275s] [ 42%] Built target ugv_interface__rosidl_typesupport_c
+[14.335s] [ 44%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.451s] [ 46%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ugv_interface/srv/detail/dds_fastrtps/map_save__type_support.cpp.o[0m
+[14.494s] [ 48%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ugv_interface/srv/detail/map_save__type_support_c.cpp.o[0m
+[14.568s] [ 51%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ugv_interface/action/detail/behavior__type_support.c.o[0m
+[14.832s] [ 53%] [32m[1mLinking C shared library libugv_interface__rosidl_typesupport_introspection_c.so[0m
+[14.958s] [ 53%] Built target ugv_interface__rosidl_typesupport_introspection_c
+[15.015s] [ 55%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.838s] [ 57%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ugv_interface/srv/detail/map_save__type_support.cpp.o[0m
+[16.077s] [ 60%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ugv_interface/srv/map_save__type_support.cpp.o[0m
+[16.728s] [ 62%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ugv_interface/action/detail/behavior__type_support_c.cpp.o[0m
+[17.032s] [ 64%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ugv_interface/action/detail/dds_fastrtps/behavior__type_support.cpp.o[0m
+[17.679s] [ 66%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ugv_interface/action/behavior__type_support.cpp.o[0m
+[17.936s] [ 68%] [32mBuilding CXX object CMakeFiles/ugv_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ugv_interface/action/detail/behavior__type_support.cpp.o[0m
+[18.916s] [ 71%] [32m[1mLinking CXX shared library libugv_interface__rosidl_typesupport_fastrtps_c.so[0m
+[19.180s] [ 71%] Built target ugv_interface__rosidl_typesupport_fastrtps_c
+[20.506s] [ 73%] [32m[1mLinking CXX shared library libugv_interface__rosidl_typesupport_cpp.so[0m
+[20.661s] [ 75%] [32m[1mLinking CXX shared library libugv_interface__rosidl_typesupport_introspection_cpp.so[0m
+[20.895s] [ 75%] Built target ugv_interface__rosidl_typesupport_cpp
+[21.012s] [ 75%] Built target ugv_interface__rosidl_typesupport_introspection_cpp
+[21.828s] [ 77%] [32m[1mLinking CXX shared library libugv_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.079s] [ 77%] Built target ugv_interface__rosidl_typesupport_fastrtps_cpp
+[22.140s] [ 77%] Built target ugv_interface
+[22.195s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.707s] [ 80%] Built target ugv_interface__py
+[23.756s] [ 84%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_py.dir/rosidl_generator_py/ugv_interface/srv/_map_save_s.c.o[0m
+[23.759s] [ 84%] [32mBuilding C object CMakeFiles/ugv_interface__rosidl_generator_py.dir/rosidl_generator_py/ugv_interface/action/_behavior_s.c.o[0m
+[24.256s] [ 86%] [32m[1mLinking C shared library libugv_interface__rosidl_generator_py.so[0m
+[24.372s] [ 86%] Built target ugv_interface__rosidl_generator_py
+[24.422s] [ 88%] [32mBuilding C object CMakeFiles/ugv_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ugv_interface/_ugv_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.423s] [ 91%] [32mBuilding C object CMakeFiles/ugv_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ugv_interface/_ugv_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.455s] [ 93%] [32mBuilding C object CMakeFiles/ugv_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/ugv_interface/_ugv_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[24.822s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/ugv_interface/ugv_interface_s__rosidl_typesupport_introspection_c.so[0m
+[24.832s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/ugv_interface/ugv_interface_s__rosidl_typesupport_c.so[0m
+[24.853s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ugv_interface/ugv_interface_s__rosidl_typesupport_fastrtps_c.so[0m
+[24.921s] [100%] Built target ugv_interface_s__rosidl_typesupport_c
+[24.951s] [100%] Built target ugv_interface_s__rosidl_typesupport_introspection_c
+[24.964s] [100%] Built target ugv_interface_s__rosidl_typesupport_fastrtps_c
+[24.989s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_interface -- -j4 -l4
+[24.992s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_interface
+[25.010s] -- Install configuration: ""
+[25.011s] -- Execute custom install script
+[25.012s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ament_index/resource_index/rosidl_interfaces/ugv_interface
+[25.034s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/srv/MapSave.json
+[25.055s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/action/Behavior.json
+[25.077s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/behavior.h
+[25.098s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__functions.h
+[25.118s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__struct.h
+[25.139s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__type_support.h
+[25.160s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/msg/rosidl_generator_c__visibility_control.h
+[25.181s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__functions.h
+[25.202s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__struct.h
+[25.222s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__type_support.h
+[25.244s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/map_save.h
+[25.268s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/library_path.sh
+[25.288s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/library_path.dsv
+[25.311s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__rosidl_typesupport_fastrtps_c.h
+[25.333s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.355s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__rosidl_typesupport_fastrtps_c.h
+[25.378s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__rosidl_typesupport_introspection_c.h
+[25.400s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.422s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__rosidl_typesupport_introspection_c.h
+[25.444s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/behavior.hpp
+[25.466s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__builder.hpp
+[25.488s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__struct.hpp
+[25.511s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__traits.hpp
+[25.533s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__type_support.hpp
+[25.555s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.578s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__builder.hpp
+[25.599s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__struct.hpp
+[25.620s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__traits.hpp
+[25.641s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__type_support.hpp
+[25.664s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/map_save.hpp
+[25.687s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[25.710s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.731s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__rosidl_typesupport_fastrtps_cpp.hpp
+[25.754s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/action/detail/behavior__rosidl_typesupport_introspection_cpp.hpp
+[25.775s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/include/ugv_interface/ugv_interface/srv/detail/map_save__rosidl_typesupport_introspection_cpp.hpp
+[25.797s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/pythonpath.sh
+[25.820s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/pythonpath.dsv
+[25.842s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[25.863s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[25.885s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[25.907s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface-0.0.0-py3.12.egg-info/top_level.txt
+[25.929s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/__init__.py
+[25.951s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/_ugv_interface_s.ep.rosidl_typesupport_c.c
+[25.973s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/_ugv_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.995s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/_ugv_interface_s.ep.rosidl_typesupport_introspection_c.c
+[26.017s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/action/__init__.py
+[26.039s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/action/_behavior.py
+[26.060s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/action/_behavior_s.c
+[26.082s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/srv/__init__.py
+[26.104s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/srv/_map_save.py
+[26.126s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/srv/_map_save_s.c
+[26.148s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/ugv_interface_s__rosidl_typesupport_c.so
+[26.170s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/ugv_interface_s__rosidl_typesupport_fastrtps_c.so
+[26.192s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/ugv_interface_s__rosidl_typesupport_introspection_c.so
+[26.214s] -- Up-to-date symlink: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/ugv_interface_s__rosidl_typesupport_fastrtps_c.so
+[26.215s] -- Up-to-date symlink: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/ugv_interface_s__rosidl_typesupport_introspection_c.so
+[26.216s] -- Up-to-date symlink: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/ugv_interface_s__rosidl_typesupport_c.so
+[26.218s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ament_index/resource_index/rust_packages/ugv_interface
+[26.239s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/Cargo.toml
+[26.261s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/build.rs
+[26.284s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/src/action.rs
+[26.305s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/src/action/rmw.rs
+[26.327s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/src/lib.rs
+[26.349s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/src/srv.rs
+[26.371s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/rust/src/srv/rmw.rs
+[26.393s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/srv/MapSave.idl
+[26.415s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/action/Behavior.idl
+[26.437s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/srv/MapSave.srv
+[26.459s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/action/Behavior.action
+[26.481s] -- Up-to-date symlink: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/srv/MapSave.srv
+[26.482s] -- Up-to-date symlink: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/action/Behavior.action
+[26.482s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ament_index/resource_index/package_run_dependencies/ugv_interface
+[26.505s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ament_index/resource_index/parent_prefix_path/ugv_interface
+[26.527s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/ament_prefix_path.sh
+[26.548s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/ament_prefix_path.dsv
+[26.570s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/path.sh
+[26.592s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/environment/path.dsv
+[26.615s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/local_setup.bash
+[26.637s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/local_setup.sh
+[26.659s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/local_setup.zsh
+[26.682s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/local_setup.dsv
+[26.704s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/package.dsv
+[26.725s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ament_index/resource_index/packages/ugv_interface
+[26.747s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/rosidl_cmake-extras.cmake
+[26.769s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.791s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.813s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[26.836s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ament_cmake_export_targets-extras.cmake
+[26.857s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.879s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.901s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interfaceConfig.cmake
+[26.923s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interfaceConfig-version.cmake
+[26.945s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/package.xml
+[26.967s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_generator_c.so
+[26.968s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_generator_c.so" to ""
+[26.968s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_fastrtps_c.so
+[26.969s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[26.970s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_introspection_c.so
+[26.970s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_introspection_c.so" to ""
+[26.971s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_c.so
+[26.971s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_c.so" to ""
+[26.972s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_fastrtps_cpp.so
+[26.973s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.974s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_introspection_cpp.so
+[26.975s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[26.975s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_cpp.so
+[26.976s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_typesupport_cpp.so" to ""
+[27.082s] Listing '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface'...
+[27.083s] Compiling '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/__init__.py'...
+[27.083s] Listing '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/action'...
+[27.083s] Compiling '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/action/__init__.py'...
+[27.083s] Compiling '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/action/_behavior.py'...
+[27.084s] Listing '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/srv'...
+[27.084s] Compiling '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/srv/__init__.py'...
+[27.084s] Compiling '/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages/ugv_interface/srv/_map_save.py'...
+[27.104s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_generator_py.so
+[27.105s] -- Set non-toolchain portion of runtime path of "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/libugv_interface__rosidl_generator_py.so" to ""
+[27.105s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_generator_cExport.cmake
+[27.106s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_generator_cExport-noconfig.cmake
+[27.107s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[27.107s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.111s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_introspection_cExport.cmake
+[27.111s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.111s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_cExport.cmake
+[27.111s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_cExport-noconfig.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_generator_cppExport.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_introspection_cppExport.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_cppExport.cmake
+[27.112s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/ugv_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[27.113s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_generator_pyExport.cmake
+[27.113s] -- Installing: /home/nameless/ugv_ws_jazzy_port/install/ugv_interface/share/ugv_interface/cmake/export_ugv_interface__rosidl_generator_pyExport-noconfig.cmake
+[27.116s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_interface
