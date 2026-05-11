@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000613] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.000804] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000829] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.001023] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.001045] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.001064] (-) JobUnselected: {'identifier': 'emcl2'}
+[0.001176] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.001195] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.001225] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001247] (-) JobUnselected: {'identifier': 'robot_pose_publisher'}
+[0.001265] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.001302] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.001337] (-) JobUnselected: {'identifier': 'ugv_base_node'}
+[0.001355] (-) JobUnselected: {'identifier': 'ugv_chat_ai'}
+[0.001373] (-) JobUnselected: {'identifier': 'ugv_description'}
+[0.001632] (-) JobUnselected: {'identifier': 'ugv_gazebo'}
+[0.001650] (-) JobUnselected: {'identifier': 'ugv_interface'}
+[0.001668] (-) JobUnselected: {'identifier': 'ugv_nav'}
+[0.001758] (-) JobUnselected: {'identifier': 'ugv_slam'}
+[0.001787] (-) JobUnselected: {'identifier': 'ugv_tools'}
+[0.001809] (-) JobUnselected: {'identifier': 'ugv_vision'}
+[0.001826] (-) JobUnselected: {'identifier': 'ugv_web_app'}
+[0.001852] (-) JobUnselected: {'identifier': 'vizanti'}
+[0.001871] (-) JobUnselected: {'identifier': 'vizanti_cpp'}
+[0.001900] (-) JobUnselected: {'identifier': 'vizanti_demos'}
+[0.001919] (-) JobUnselected: {'identifier': 'vizanti_msgs'}
+[0.001937] (-) JobUnselected: {'identifier': 'vizanti_server'}
+[0.001974] (ugv_bringup) JobQueued: {'identifier': 'ugv_bringup', 'dependencies': OrderedDict()}
+[0.002000] (ugv_bringup) JobStarted: {'identifier': 'ugv_bringup'}
+[0.099542] (-) TimerEvent: {}
+[0.199877] (-) TimerEvent: {}
+[0.300229] (-) TimerEvent: {}
+[0.400650] (-) TimerEvent: {}
+[0.501001] (-) TimerEvent: {}
+[0.601361] (-) TimerEvent: {}
+[0.701691] (-) TimerEvent: {}
+[0.801996] (-) TimerEvent: {}
+[0.902298] (-) TimerEvent: {}
+[1.002599] (-) TimerEvent: {}
+[1.102900] (-) TimerEvent: {}
+[1.203243] (-) TimerEvent: {}
+[1.225891] (ugv_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/build', '--no-deps', 'symlink_data'], 'cwd': '/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nameless', 'SSH_CLIENT': '192.168.0.79 36894 22', 'LC_TIME': 'C.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nameless/ugv_ws_jazzy_port/install/costmap_converter_msgs/lib:/home/nameless/ugv_ws_jazzy_port/install/apriltag_msgs/lib:/home/nameless/ugv_ws_jazzy_port/install/apriltag/lib:/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/nameless', 'OLDPWD': '/home/nameless', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/nameless/ugv_ws_jazzy_port/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'nameless', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/nameless/ugv_ws_jazzy_port/install/apriltag/lib/aarch64-linux-gnu/pkgconfig:/home/nameless/ugv_ws_jazzy_port/install/apriltag/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/home/nameless/ugv_ws_jazzy_port/install/apriltag/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/nameless/ugv_ws_jazzy_port/install/costmap_converter_msgs:/home/nameless/ugv_ws_jazzy_port/install/apriltag_msgs:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_slam:/home/nameless/ugv_ws_jazzy_port/install/ugv_nav:/home/nameless/ugv_ws_jazzy_port/install/ugv_interface:/home/nameless/ugv_ws_jazzy_port/install/ugv_description:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node:/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '192.168.0.79 36894 192.168.0.14 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/build/ugv_bringup:/home/nameless/ugv_ws_jazzy_port/install/costmap_converter_msgs/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/install/apriltag_msgs/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/install/apriltag/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/build/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/build/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/build/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/install/ugv_interface/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/build/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai/lib/python3.12/site-packages:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/nameless/ugv_ws_jazzy_port/install/costmap_converter_msgs:/home/nameless/ugv_ws_jazzy_port/install/apriltag_msgs:/home/nameless/ugv_ws_jazzy_port/install/apriltag:/home/nameless/ugv_ws_jazzy_port/install/ugv_slam:/home/nameless/ugv_ws_jazzy_port/install/ugv_nav:/home/nameless/ugv_ws_jazzy_port/install/ugv_interface:/home/nameless/ugv_ws_jazzy_port/install/ugv_description:/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node:/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'UGV_MODEL': 'ugv_rover'}, 'shell': False}
+[1.303339] (-) TimerEvent: {}
+[1.403643] (-) TimerEvent: {}
+[1.503954] (-) TimerEvent: {}
+[1.604253] (-) TimerEvent: {}
+[1.685708] (ugv_bringup) StdoutLine: {'line': b'running develop\n'}
+[1.704351] (-) TimerEvent: {}
+[1.804656] (-) TimerEvent: {}
+[1.904971] (-) TimerEvent: {}
+[1.965697] (ugv_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[1.990704] (ugv_bringup) StdoutLine: {'line': b'writing ugv_bringup.egg-info/PKG-INFO\n'}
+[1.991119] (ugv_bringup) StdoutLine: {'line': b'writing dependency_links to ugv_bringup.egg-info/dependency_links.txt\n'}
+[1.992184] (ugv_bringup) StdoutLine: {'line': b'writing entry points to ugv_bringup.egg-info/entry_points.txt\n'}
+[1.992921] (ugv_bringup) StdoutLine: {'line': b'writing requirements to ugv_bringup.egg-info/requires.txt\n'}
+[1.993697] (ugv_bringup) StdoutLine: {'line': b'writing top-level names to ugv_bringup.egg-info/top_level.txt\n'}
+[2.005048] (-) TimerEvent: {}
+[2.048630] (ugv_bringup) StdoutLine: {'line': b"reading manifest file 'ugv_bringup.egg-info/SOURCES.txt'\n"}
+[2.050039] (ugv_bringup) StdoutLine: {'line': b"writing manifest file 'ugv_bringup.egg-info/SOURCES.txt'\n"}
+[2.078115] (ugv_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[2.078435] (ugv_bringup) StdoutLine: {'line': b'Creating /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/python3.12/site-packages/ugv-bringup.egg-link (link to .)\n'}
+[2.079276] (ugv_bringup) StdoutLine: {'line': b'Installing ugv_bringup script to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/ugv_bringup\n'}
+[2.079665] (ugv_bringup) StdoutLine: {'line': b'Installing ugv_driver script to /home/nameless/ugv_ws_jazzy_port/install/ugv_bringup/lib/ugv_bringup\n'}
+[2.080036] (ugv_bringup) StdoutLine: {'line': b'\n'}
+[2.080138] (ugv_bringup) StdoutLine: {'line': b'Installed /home/nameless/ugv_ws_jazzy_port/build/ugv_bringup\n'}
+[2.080260] (ugv_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[2.105169] (-) TimerEvent: {}
+[2.171354] (ugv_bringup) CommandEnded: {'returncode': 0}
+[2.191307] (ugv_bringup) JobEnded: {'identifier': 'ugv_bringup', 'rc': 0}
+[2.192839] (-) EventReactorShutdown: {}

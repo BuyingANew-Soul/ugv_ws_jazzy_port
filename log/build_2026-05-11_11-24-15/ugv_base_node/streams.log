@@ -1,0 +1,78 @@
+[0.017s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node
+[0.123s] -- The C compiler identification is GNU 13.3.0
+[0.226s] -- The CXX compiler identification is GNU 13.3.0
+[0.254s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.461s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.668s] -- Detecting CXX compile features
+[0.668s] -- Detecting CXX compile features - done
+[0.676s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.944s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.068s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.167s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.255s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.286s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.507s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.515s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.686s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.716s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.883s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[1.949s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.161s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.195s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.197s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.197s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.205s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.247s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.298s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.514s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.516s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.517s] -- Configured cppcheck include dirs: 
+[2.517s] -- Configured cppcheck exclude dirs and/or files: 
+[2.519s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.519s] -- Configured cpplint exclude dirs and/or files: 
+[2.520s] -- Added test 'lint_cmake' to check CMake code style
+[2.522s] -- Added test 'uncrustify' to check C / C++ code style
+[2.523s] -- Configured uncrustify additional arguments: 
+[2.524s] -- Added test 'xmllint' to check XML markup files
+[2.527s] -- Configuring done (2.5s)
+[2.560s] -- Generating done (0.0s)
+[2.571s] -- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node
+[2.593s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_base_node
+[2.595s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node -- -j4 -l4
+[2.701s] [ 50%] [32mBuilding CXX object CMakeFiles/base_node.dir/src/base_node.cpp.o[0m
+[2.702s] [ 50%] [32mBuilding CXX object CMakeFiles/base_node_ekf.dir/src/base_node_ekf.cpp.o[0m
+[21.676s] [ 75%] [32m[1mLinking CXX executable base_node_ekf[0m
+[21.692s] [100%] [32m[1mLinking CXX executable base_node[0m
+[24.007s] [100%] Built target base_node_ekf
+[24.014s] [100%] Built target base_node
+[24.037s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node -- -j4 -l4
+[24.057s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node
+[24.073s] -- Install configuration: ""
+[24.073s] -- Execute custom install script
+[24.074s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/lib/ugv_base_node/base_node
+[24.093s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/lib/ugv_base_node/base_node_ekf
+[24.112s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ament_index/resource_index/package_run_dependencies/ugv_base_node
+[24.130s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ament_index/resource_index/parent_prefix_path/ugv_base_node
+[24.149s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/ament_prefix_path.sh
+[24.167s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/ament_prefix_path.dsv
+[24.186s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/path.sh
+[24.205s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/environment/path.dsv
+[24.222s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.bash
+[24.241s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.sh
+[24.259s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.zsh
+[24.278s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/local_setup.dsv
+[24.296s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/package.dsv
+[24.315s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ament_index/resource_index/packages/ugv_base_node
+[24.334s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/cmake/ugv_base_nodeConfig.cmake
+[24.352s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/cmake/ugv_base_nodeConfig-version.cmake
+[24.371s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_base_node/share/ugv_base_node/package.xml
+[24.392s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node

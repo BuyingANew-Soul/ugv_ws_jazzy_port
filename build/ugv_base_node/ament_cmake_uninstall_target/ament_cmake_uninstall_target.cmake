@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

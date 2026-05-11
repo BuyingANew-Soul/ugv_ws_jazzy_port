@@ -1,2 +1,0 @@
-[console_scripts]
-app = ugv_chat_ai.app:main

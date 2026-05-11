@@ -1,1 +1,0 @@
-Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher -- -j4 -l4

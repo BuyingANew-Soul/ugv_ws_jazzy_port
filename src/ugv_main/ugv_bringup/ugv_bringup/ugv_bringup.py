@@ -67,22 +67,24 @@ class BaseController:
             "mx": 0, "my": 0, "mz": 0,
             "odl": 0, "odr": 0, "v": 0
         }
-
     def feedback_data(self):
-        """Read one line from UART and parse JSON. Returns parsed dict or None."""
+        """Read UART and extract first valid JSON object found."""
         try:
-            line = self.rl.readline().decode('utf-8').strip()
-            if not line:
+            line = self.rl.readline().decode('utf-8', errors='ignore')
+            # Find the first { and last } to extract the JSON object
+            start = line.find('{')
+            end = line.rfind('}')
+            if start == -1 or end == -1 or end <= start:
                 return None
-            parsed = json.loads(line)
+            json_str = line[start:end + 1]
+            parsed = json.loads(json_str)
             self.base_data = parsed
             return parsed
-        except json.JSONDecodeError as e:
-            self.logger.warning(f"JSON decode error: {e} | raw: {line!r}")
+        except json.JSONDecodeError:
             self.rl.clear_buffer()
             return None
         except Exception as e:
-            self.logger.error(f"feedback_data unexpected error: {e}")
+            self.get_logger().error(f'feedback_data error: {e}') if hasattr(self, 'get_logger') else None
             self.rl.clear_buffer()
             return None
 
@@ -109,9 +111,12 @@ class BaseController:
 
 class UgvBringup(Node):
     """ROS2 node: reads ESP32 sensor feedback and publishes to ROS topics."""
+    
 
     def __init__(self):
         super().__init__('ugv_bringup')
+        self.REQUIRED_KEYS = {'T', 'L', 'R', 'ax', 'ay', 'az', 'gx', 'gy', 'gz',
+                 'mx', 'my', 'mz', 'odl', 'odr', 'v'}
 
         # Publishers
         self.imu_raw_pub = self.create_publisher(Imu, 'imu/data_raw', 100)
@@ -128,14 +133,15 @@ class UgvBringup(Node):
         # 1 kHz feedback loop
         self.feedback_timer = self.create_timer(0.001, self._feedback_loop)
 
+    
     def _feedback_loop(self):
         data = self.base_ctrl.feedback_data()
-        # Only publish on valid T=1001 packets (ESP32 sensor broadcast)
         if data is not None and data.get('T') == 1001:
-            self._publish_imu_raw(data)
-            self._publish_imu_mag(data)
-            self._publish_odom_raw(data)
-            self._publish_voltage(data)
+            if self.REQUIRED_KEYS.issubset(data.keys()):
+                self._publish_imu_raw(data)
+                self._publish_imu_mag(data)
+                self._publish_odom_raw(data)
+                self._publish_voltage(data)
 
     def _publish_imu_raw(self, d):
         msg = Imu()

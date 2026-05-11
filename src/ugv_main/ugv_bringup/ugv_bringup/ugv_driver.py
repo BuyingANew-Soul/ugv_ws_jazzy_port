@@ -6,8 +6,6 @@ from sensor_msgs.msg import JointState
 from std_msgs.msg import Float32, Float32MultiArray
 import serial
 import json
-import subprocess
-import time
 import os
 
 
@@ -79,13 +77,12 @@ class UgvDriver(Node):
         self._send({'T': 132, 'IO4': msg.data[0], 'IO5': msg.data[1]})
 
     def _voltage_cb(self, msg: Float32):
+        # Low battery threshold: below 9.0V on a 3S pack = cells below 3.0V each
         if 0.1 < msg.data < 9.0:
-            # Low battery warning — use default audio device, not hardcoded path
-            wav = os.path.join(
-                os.path.dirname(__file__), 'low_battery.wav')
-            if os.path.exists(wav):
-                subprocess.run(['aplay', wav], check=False)
-            time.sleep(5)
+            self.get_logger().warn(
+                f'LOW BATTERY: {msg.data:.2f}V — please charge soon!',
+                throttle_duration_sec=30.0  # warn at most once every 30s
+            )
 
     def destroy_node(self):
         if self.ser.is_open:
@@ -102,7 +99,8 @@ def main(args=None):
         pass
     finally:
         node.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():          # ← guard against double-shutdown
+            rclpy.shutdown()
 
 
 if __name__ == '__main__':

@@ -1,0 +1,83 @@
+[0.056s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_description
+[0.789s] -- The C compiler identification is GNU 13.3.0
+[0.789s] -- The CXX compiler identification is GNU 13.3.0
+[0.790s] -- Detecting C compiler ABI info
+[0.790s] -- Detecting C compiler ABI info - done
+[0.790s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.790s] -- Detecting C compile features
+[0.790s] -- Detecting C compile features - done
+[0.790s] -- Detecting CXX compiler ABI info
+[0.790s] -- Detecting CXX compiler ABI info - done
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.791s] -- Detecting CXX compile features
+[0.791s] -- Detecting CXX compile features - done
+[0.791s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.017s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.149s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.244s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.261s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.472s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.676s] -- Configuring done (1.6s)
+[1.683s] -- Generating done (0.0s)
+[1.687s] -- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_description
+[1.704s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nameless/ugv_ws_jazzy_port/install/ugv_description
+[1.708s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_description -- -j4 -l4
+[1.811s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/ugv_description -- -j4 -l4
+[1.834s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_description
+[1.852s] -- Install configuration: ""
+[1.853s] -- Execute custom install script
+[1.854s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/launch/display.launch.py
+[1.877s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/base_lidar_link.stl
+[1.898s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/base_link.stl
+[1.919s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/left_down_wheel_link.stl
+[1.941s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/left_up_wheel_link.stl
+[1.962s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_base_link.stl
+[1.982s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_camera_link.stl
+[2.001s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_link1.stl
+[2.020s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_link2.stl
+[2.039s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/right_down_wheel_link.stl
+[2.059s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/right_up_wheel_link.stl
+[2.078s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/3d_camera_link.stl
+[2.097s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/base_lidar_link.stl
+[2.117s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/base_link.stl
+[2.139s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/left_down_wheel_link.stl
+[2.158s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/left_up_wheel_link.stl
+[2.177s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_base_link.stl
+[2.196s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_camera_link.stl
+[2.214s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_link1.stl
+[2.234s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_link2.stl
+[2.256s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/right_down_wheel_link.stl
+[2.276s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/right_up_wheel_link.stl
+[2.295s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/3d_camera_link.stl
+[2.314s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/base_lidar_link.stl
+[2.334s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/base_link.stl
+[2.352s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/left_down_wheel_link.stl
+[2.371s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/left_up_wheel_link.stl
+[2.390s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_base_link.stl
+[2.409s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_camera_link.stl
+[2.427s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_link1.stl
+[2.446s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_link2.stl
+[2.464s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/right_down_wheel_link.stl
+[2.484s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/right_up_wheel_link.stl
+[2.503s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/urdf/rasp_rover.urdf
+[2.522s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/urdf/ugv_beast.urdf
+[2.543s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/urdf/ugv_rover.urdf
+[2.561s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/rviz/view_description.rviz
+[2.582s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ament_index/resource_index/package_run_dependencies/ugv_description
+[2.600s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ament_index/resource_index/parent_prefix_path/ugv_description
+[2.621s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/ament_prefix_path.sh
+[2.640s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/ament_prefix_path.dsv
+[2.658s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/path.sh
+[2.678s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/path.dsv
+[2.696s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.bash
+[2.723s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.sh
+[2.750s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.zsh
+[2.777s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.dsv
+[2.803s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/package.dsv
+[2.829s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ament_index/resource_index/packages/ugv_description
+[2.852s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.871s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/cmake/ugv_descriptionConfig.cmake
+[2.889s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/cmake/ugv_descriptionConfig-version.cmake
+[2.907s] -- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/package.xml
+[2.928s] Invoked command in '/home/nameless/ugv_ws_jazzy_port/build/ugv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nameless/ugv_ws_jazzy_port/install/ugv_web_app:/home/nameless/ugv_ws_jazzy_port/install/ugv_vision:/home/nameless/ugv_ws_jazzy_port/install/ugv_tools:/home/nameless/ugv_ws_jazzy_port/install/ugv_chat_ai:/home/nameless/ugv_ws_jazzy_port/install/ugv_bringup:/opt/ros/jazzy /usr/bin/cmake --install /home/nameless/ugv_ws_jazzy_port/build/ugv_description

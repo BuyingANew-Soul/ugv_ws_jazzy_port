@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nameless/ugv_ws_jazzy_port/build/ugv_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/launch/display.launch.py
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/base_lidar_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/base_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/left_down_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/left_up_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_base_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_camera_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_link1.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/pt_link2.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/right_down_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/rasp_rover/right_up_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/3d_camera_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/base_lidar_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/base_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/left_down_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/left_up_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_base_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_camera_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_link1.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/pt_link2.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/right_down_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_beast/right_up_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/3d_camera_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/base_lidar_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/base_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/left_down_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/left_up_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_base_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_camera_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_link1.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/pt_link2.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/right_down_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/meshes/ugv_rover/right_up_wheel_link.stl
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/urdf/rasp_rover.urdf
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/urdf/ugv_beast.urdf
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/urdf/ugv_rover.urdf
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/rviz/view_description.rviz
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ament_index/resource_index/package_run_dependencies/ugv_description
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ament_index/resource_index/parent_prefix_path/ugv_description
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/path.sh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/environment/path.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.bash
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.sh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.zsh
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/local_setup.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/package.dsv
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ament_index/resource_index/packages/ugv_description
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/cmake/ugv_descriptionConfig.cmake
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/cmake/ugv_descriptionConfig-version.cmake
+-- Symlinking: /home/nameless/ugv_ws_jazzy_port/install/ugv_description/share/ugv_description/package.xml

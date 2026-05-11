@@ -1,4 +1,0 @@
-[0.026s] Invoking command in '/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher -- -j4 -l4
-[0.215s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_pose_publisher.dir/src/robot_pose_publisher.cpp.o[0m
-[27.551s] [100%] [32m[1mLinking CXX executable robot_pose_publisher[0m
-[29.901s] [100%] Built target robot_pose_publisher
