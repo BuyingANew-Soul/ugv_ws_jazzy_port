@@ -5,26 +5,11 @@
 
 A port of [waveshareteam/ugv_ws](https://github.com/waveshareteam/ugv_ws) from ROS2 Humble to **ROS2 Jazzy Jalisco**, targeting the **Waveshare UGV02** with a **Raspberry Pi 5** on **Ubuntu 24.04 Noble**.
 
-This repository is intentionally scoped to the **hardware interface layer only** — the serial bridge to the ESP32, odometry, robot description, and teleop. All higher-level robotics (sensor fusion, SLAM, navigation, manipulation) live in the companion [`ros2_stack`](https://github.com/YOUR_USERNAME/ros2_stack) repository, which is hardware-agnostic and shared across all robots in the AUWO project.
+This repository is intentionally scoped to the **hardware interface layer only** — the serial bridge to the ESP32, odometry, robot description, and teleop. 
 
 ---
 
-## Context — AUWO Project
 
-This workspace is part of **AUWO (Autonomous Working Machines)**, a research project developing a novel architecture for autonomous mobile robots and manipulators. The UGV02 with Pi 5 serves as the primary ground robot testbed.
-
-The architecture under development does not use Nav2 as a black box — all planning, control, and state estimation components are implemented from first principles for research validity and architectural transparency.
-
-Related repositories in the AUWO project:
-
-| Repository | Purpose |
-|---|---|
-| `ugv_ws` (this repo) | UGV02 hardware interface layer |
-| `ros2_stack` | Hardware-agnostic sensor fusion, SLAM, navigation, manipulation |
-| *(future)* `leo_ws` | Leo Rover hardware interface layer |
-| *(future)* `auwo_arch` | Core AUWO architecture definitions and evaluation framework |
-
----
 
 ## Hardware
 
@@ -66,7 +51,7 @@ The UGV02 uses a dual-controller design. The ESP32 handles all timing-critical l
                     ┌─────────────────────────────────────────┐
                     │      Laptop / Orin Nano / ros2_stack    │
                     │   Sensor fusion · SLAM · Planning       │
-                    │   Arm control · Perception · AUWO arch  │
+                    │   Arm control · Perception  │
                     └─────────────────────────────────────────┘
 ```
 
