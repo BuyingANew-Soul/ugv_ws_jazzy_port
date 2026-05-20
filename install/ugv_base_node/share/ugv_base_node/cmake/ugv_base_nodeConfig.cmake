@@ -1,1 +1,0 @@
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node/ament_cmake_core/ugv_base_nodeConfig.cmake

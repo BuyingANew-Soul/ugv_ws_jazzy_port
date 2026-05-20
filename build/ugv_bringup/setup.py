@@ -1,1 +1,0 @@
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_bringup/setup.py

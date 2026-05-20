@@ -1,1 +1,0 @@
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.sh

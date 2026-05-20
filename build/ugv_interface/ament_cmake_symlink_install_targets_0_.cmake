@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_py/ugv_interface/ugv_interface_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "ugv_interface_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/ugv_interface")

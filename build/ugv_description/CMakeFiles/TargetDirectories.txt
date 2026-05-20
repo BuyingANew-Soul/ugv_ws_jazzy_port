@@ -1,9 +1,0 @@
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/uninstall.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/ugv_description_uninstall.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/test.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/edit_cache.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/rebuild_cache.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/list_install_components.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/install.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/install/local.dir
-/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/CMakeFiles/install/strip.dir
