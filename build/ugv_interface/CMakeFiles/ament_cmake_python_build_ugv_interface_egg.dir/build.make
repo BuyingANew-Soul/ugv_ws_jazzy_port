@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface
+CMAKE_SOURCE_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nameless/ugv_ws_jazzy_port/build/ugv_interface
+CMAKE_BINARY_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface
 
 # Utility rule file for ament_cmake_python_build_ugv_interface_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/compiler_depen
 include CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_ugv_interface_egg:
-	cd /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ament_cmake_python/ugv_interface && /usr/bin/python3 setup.py egg_info
+	cd /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/ament_cmake_python/ugv_interface && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_ugv_interface_egg: CMakeFiles/ament_cmake_python_build_ugv_interface_egg
 ament_cmake_python_build_ugv_interface_egg: CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/depend:
-	cd /home/nameless/ugv_ws_jazzy_port/build/ugv_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_ugv_interface_egg.dir/depend
 

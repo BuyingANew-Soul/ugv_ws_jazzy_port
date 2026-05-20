@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/robot_pose_publisher" "TARGETS" "robot_pose_publisher" "DESTINATION" "lib/robot_pose_publisher")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/robot_pose_publisher" "TARGETS" "robot_pose_publisher" "DESTINATION" "lib/robot_pose_publisher")

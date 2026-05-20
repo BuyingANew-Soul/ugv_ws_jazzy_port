@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface
+CMAKE_SOURCE_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nameless/ugv_ws_jazzy_port/build/ugv_interface
+CMAKE_BINARY_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles /home/nameless/ugv_ws_jazzy_port/build/ugv_interface//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,21 +415,8 @@ ugv_interface__py: cmake_check_build_system
 
 # fast build rule for target.
 ugv_interface__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py/CMakeFiles/ugv_interface__py.dir/build.make /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py/CMakeFiles/ugv_interface__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py/CMakeFiles/ugv_interface__py.dir/build.make /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py/CMakeFiles/ugv_interface__py.dir/build
 .PHONY : ugv_interface__py/fast
-
-#=============================================================================
-# Target rules for targets named ugv_interface__rs
-
-# Build rule for target.
-ugv_interface__rs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ugv_interface__rs
-.PHONY : ugv_interface__rs
-
-# fast build rule for target.
-ugv_interface__rs/fast:
-	$(MAKE) $(MAKESILENT) -f /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__rs/CMakeFiles/ugv_interface__rs.dir/build.make /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__rs/CMakeFiles/ugv_interface__rs.dir/build
-.PHONY : ugv_interface__rs/fast
 
 rosidl_generator_c/ugv_interface/action/detail/behavior__description.o: rosidl_generator_c/ugv_interface/action/detail/behavior__description.c.o
 .PHONY : rosidl_generator_c/ugv_interface/action/detail/behavior__description.o
@@ -1002,7 +989,6 @@ help:
 	@echo "... ugv_interface__cpp"
 	@echo "... ugv_interface__py"
 	@echo "... ugv_interface__rosidl_generator_type_description"
-	@echo "... ugv_interface__rs"
 	@echo "... ugv_interface_uninstall"
 	@echo "... uninstall"
 	@echo "... ugv_interface__rosidl_generator_c"

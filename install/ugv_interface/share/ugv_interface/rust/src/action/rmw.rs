@@ -1,1 +1,0 @@
-/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_rs/ugv_interface/rust/src/action/rmw.rs

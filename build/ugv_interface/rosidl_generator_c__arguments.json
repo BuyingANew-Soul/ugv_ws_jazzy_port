@@ -1,14 +1,14 @@
 {
   "package_name": "ugv_interface",
-  "output_dir": "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_c/ugv_interface",
+  "output_dir": "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_c/ugv_interface",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface:srv/MapSave.idl",
-    "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface:action/Behavior.idl"
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface:srv/MapSave.idl",
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface:action/Behavior.idl"
   ],
   "ros_interface_files": [
-    "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface/srv/MapSave.srv",
-    "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface/action/Behavior.action"
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface/srv/MapSave.srv",
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface/action/Behavior.action"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -40,8 +40,8 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface/srv/MapSave.idl",
-    "/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface/action/Behavior.idl",
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface/srv/MapSave.idl",
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_adapter/ugv_interface/action/Behavior.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
@@ -52,7 +52,7 @@
     "/opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "type_description_tuples": [
-    "srv/MapSave.idl:/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_type_description/ugv_interface/srv/MapSave.json",
-    "action/Behavior.idl:/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_type_description/ugv_interface/action/Behavior.json"
+    "srv/MapSave.idl:/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_type_description/ugv_interface/srv/MapSave.json",
+    "action/Behavior.idl:/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_type_description/ugv_interface/action/Behavior.json"
   ]
 }

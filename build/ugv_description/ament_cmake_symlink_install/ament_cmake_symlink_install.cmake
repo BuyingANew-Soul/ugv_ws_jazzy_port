@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/nameless/ugv_ws_jazzy_port/install/ugv_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/ugv_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/nameless/ugv_ws_jazzy_port/install/ugv_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/ugv_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/nameless/ugv_ws_jazzy_port/install/ugv_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/ugv_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/nameless/ugv_ws_jazzy_port/install/ugv_description/${destination}")
+      set(destination "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/ugv_description/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,49 +316,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "launch" "meshes" "urdf" "rviz" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_directory("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" DIRECTORY "launch" "meshes" "urdf" "rviz" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_directory("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" DIRECTORY "launch" "meshes" "urdf" "rviz" "DESTINATION" "share/ugv_description")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ugv_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ugv_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ugv_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ugv_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ugv_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ugv_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ugv_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ugv_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ugv_description/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ugv_description/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/ugv_description/environment")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ugv_description/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ugv_description/environment")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ugv_description/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/ugv_description/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ugv_description/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ugv_description/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/ugv_description/environment")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ugv_description/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ugv_description/environment")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ugv_description/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/ugv_description/environment")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ugv_description")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/ugv_description")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ugv_description")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/ugv_description")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ugv_description")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/ugv_description")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ugv_description")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/ugv_description")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ugv_description")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/ugv_description")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/packages/ugv_description" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/packages/ugv_description" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/packages/ugv_description" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_index/share/ament_index/resource_index/packages/ugv_description" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ugv_description/cmake")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ugv_description/cmake")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ugv_description/cmake")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/ugv_description/cmake")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig.cmake" "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig-version.cmake" "DESTINATION" "share/ugv_description/cmake")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig.cmake" "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig-version.cmake" "DESTINATION" "share/ugv_description/cmake")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig.cmake" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig-version.cmake" "DESTINATION" "share/ugv_description/cmake")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig.cmake" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_core/ugv_descriptionConfig-version.cmake" "DESTINATION" "share/ugv_description/cmake")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description/package.xml" "DESTINATION" "share/ugv_description")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description/package.xml" "DESTINATION" "share/ugv_description")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description/package.xml" "DESTINATION" "share/ugv_description")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description/package.xml" "DESTINATION" "share/ugv_description")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_description
+# Install script for directory: /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nameless/ugv_ws_jazzy_port/install/ugv_description")
+  set(CMAKE_INSTALL_PREFIX "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/ugv_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/nameless/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nameless/ugv_ws_jazzy_port/build/ugv_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

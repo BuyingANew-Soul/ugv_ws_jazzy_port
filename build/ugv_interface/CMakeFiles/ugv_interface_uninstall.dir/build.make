@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface
+CMAKE_SOURCE_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nameless/ugv_ws_jazzy_port/build/ugv_interface
+CMAKE_BINARY_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface
 
 # Utility rule file for ugv_interface_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ugv_interface_uninstall.dir/compiler_depend.make
 include CMakeFiles/ugv_interface_uninstall.dir/progress.make
 
 CMakeFiles/ugv_interface_uninstall:
-	/usr/bin/cmake -P /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ugv_interface_uninstall: CMakeFiles/ugv_interface_uninstall
 ugv_interface_uninstall: CMakeFiles/ugv_interface_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ugv_interface_uninstall.dir/clean:
 .PHONY : CMakeFiles/ugv_interface_uninstall.dir/clean
 
 CMakeFiles/ugv_interface_uninstall.dir/depend:
-	cd /home/nameless/ugv_ws_jazzy_port/build/ugv_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles/ugv_interface_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/CMakeFiles/ugv_interface_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ugv_interface_uninstall.dir/depend
 

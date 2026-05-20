@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_ugv_interface -DROS_PACKAGE_NAME=\"ugv_interface\"
 
-C_INCLUDES = -I/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_typesupport_introspection_c -I/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface/include/ugv_slam -I/home/nameless/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_c -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_typesupport_introspection_c -I/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface/include/ugv_slam -I/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/rosidl_generator_c -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

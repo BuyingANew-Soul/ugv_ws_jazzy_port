@@ -1,7 +1,7 @@
 {
   "package_name": "ugv_interface",
   "non_idl_tuples": [
-    "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface:srv/MapSave.srv",
-    "/home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_interface:action/Behavior.action"
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface:srv/MapSave.srv",
+    "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_interface:action/Behavior.action"
   ]
 }

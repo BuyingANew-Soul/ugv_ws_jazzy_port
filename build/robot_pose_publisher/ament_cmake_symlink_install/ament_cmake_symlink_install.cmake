@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/robot_pose_publisher/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -128,7 +128,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/robot_pose_publisher/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -186,7 +186,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/robot_pose_publisher/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -256,7 +256,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher/${destination}")
+      set(destination "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/robot_pose_publisher/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -316,49 +316,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "robot_pose_publisher" "DESTINATION" "lib/robot_pose_publisher")
-include("/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_directory("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" DIRECTORY "launch" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_directory("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" DIRECTORY "launch" "DESTINATION" "share/robot_pose_publisher")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robot_pose_publisher/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robot_pose_publisher/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robot_pose_publisher/environment")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_pose_publisher/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_pose_publisher/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_pose_publisher/environment")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_pose_publisher/environment")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_pose_publisher")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_pose_publisher")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_pose_publisher")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_pose_publisher")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_pose_publisher")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_pose_publisher")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_pose_publisher")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_pose_publisher")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_pose_publisher")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_pose_publisher")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/packages/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/packages/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/packages/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_index/share/ament_index/resource_index/packages/robot_pose_publisher" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig.cmake" "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig-version.cmake" "DESTINATION" "share/robot_pose_publisher/cmake")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig.cmake" "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig-version.cmake" "DESTINATION" "share/robot_pose_publisher/cmake")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig.cmake" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig-version.cmake" "DESTINATION" "share/robot_pose_publisher/cmake")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig.cmake" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_core/robot_pose_publisherConfig-version.cmake" "DESTINATION" "share/robot_pose_publisher/cmake")
 
-# install(FILES "/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher/package.xml" "DESTINATION" "share/robot_pose_publisher")
-ament_cmake_symlink_install_files("/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher/package.xml" "DESTINATION" "share/robot_pose_publisher")
+# install(FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher/package.xml" "DESTINATION" "share/robot_pose_publisher")
+ament_cmake_symlink_install_files("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher" FILES "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher/package.xml" "DESTINATION" "share/robot_pose_publisher")

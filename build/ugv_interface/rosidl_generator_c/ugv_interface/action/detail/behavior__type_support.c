@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "ugv_interface/action/detail/behavior__struct.h"
 #include "ugv_interface/action/detail/behavior__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "ugv_interface/action/detail/behavior__functions.h"
 
 #ifdef __cplusplus

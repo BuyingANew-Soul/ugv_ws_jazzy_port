@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "ugv_interface/srv/detail/map_save__struct.h"
 #include "ugv_interface/srv/detail/map_save__functions.h"
+#include "ugv_interface/srv/detail/map_save__struct.h"
 #include "ugv_interface/srv/detail/map_save__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

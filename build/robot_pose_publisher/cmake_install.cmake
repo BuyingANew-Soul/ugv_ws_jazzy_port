@@ -1,8 +1,8 @@
-# Install script for directory: /home/nameless/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher
+# Install script for directory: /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_else/robot_pose_publisher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nameless/ugv_ws_jazzy_port/install/robot_pose_publisher")
+  set(CMAKE_INSTALL_PREFIX "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/robot_pose_publisher")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nameless/ugv_ws_jazzy_port/build/robot_pose_publisher/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/robot_pose_publisher/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

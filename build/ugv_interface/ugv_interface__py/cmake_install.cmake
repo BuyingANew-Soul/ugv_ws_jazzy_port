@@ -1,8 +1,8 @@
-# Install script for directory: /home/nameless/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py
+# Install script for directory: /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_interface/ugv_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nameless/ugv_ws_jazzy_port/install/ugv_interface")
+  set(CMAKE_INSTALL_PREFIX "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/install/ugv_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

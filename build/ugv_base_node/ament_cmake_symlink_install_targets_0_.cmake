@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node/base_node" "/home/nameless/ugv_ws_jazzy_port/build/ugv_base_node/base_node_ekf" "TARGETS" "base_node" "base_node_ekf" "DESTINATION" "lib/ugv_base_node")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node/base_node" "/home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node/base_node_ekf" "TARGETS" "base_node" "base_node_ekf" "DESTINATION" "lib/ugv_base_node")

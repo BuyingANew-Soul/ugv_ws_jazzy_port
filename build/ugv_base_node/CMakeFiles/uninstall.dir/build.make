@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node
+CMAKE_SOURCE_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node
+CMAKE_BINARY_DIR = /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node /home/nameless/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node /home/nameless/ugv_ws_jazzy_port/build/ugv_base_node/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/src/ugv_main/ugv_base_node /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node /home/nameless/Desktop/UGV_WS/ugv_ws_jazzy_port/build/ugv_base_node/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 
